@@ -1,6 +1,8 @@
 # biba
 Buscador Inteligente Basado en Agentes (práctica de fin de carrera)
 
+![biba](https://raw.githubusercontent.com/biba2000/biba/master/biba/jsp/images/bilmesBlinkSmoke.GIF)
+
 El año 2000, lleno de nuevos retos, mucha ilusión y oportunidades que comenzaban para este pequeño grupo
 de ingenieros a punto de licenciarse en la Universidad Complutense de Madrid.
 
