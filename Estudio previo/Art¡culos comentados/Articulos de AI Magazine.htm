@@ -1,0 +1,173 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>ARTÍCULOS DE AI MAGAZINE</title>
+<meta name="Microsoft Theme" content="sumipntg 001, default">
+</head>
+
+<body background="../../../_themes/sumipntg/sumtextb.jpg" bgcolor="#FFFFFF" text="#000066" link="#3333CC" vlink="#666699" alink="#990099"><!--mstheme--><font face="Verdana, Arial, Helvetica">
+
+<b>
+<p align="center"><font size="2">ARTÍCULOS DE AI MAGAZINE</font></p>
+<p align="center"><font size="2">Utilizando Softbots en la World Wide Web </font></b><font size="2">de
+Oren Etzioni</font></p>
+<p align="center"><font size="2">Los softbots son agentes inteligentes capaces
+de utilizar herramientas software y servicios de manera similar a como lo haría
+una persona, como por ejemplo mandar e-mails, imprimir archivos, etc.</font></p>
+<p align="justify"><font size="2">El softbot METACRAWLER proporciona un
+interface para buscar documentos en la red. Utiliza un lenguaje de consulta que
+permite buscar documentos que contengan determinadas frases y que excluyan
+otras. Opera a partir de los resultados de cinco buscadores
+&quot;tradicionales&quot; (hay que tener en cuenta que no todos estos buscadores
+permiten consultas con frases. Esto es trabajo para METACRAWLER). Un punto
+importante es que METACRAWLER es lo suficientemente sencillo como para funcionar
+en un PC, ya que el trabajo &quot;duro&quot; lo realizan los buscadores
+anteriormente referidos.</font></p>
+<p align="justify"><font size="2">El softbot AHOY! Utiliza <i>desplazamiento dinámico
+de referencias</i> para localizar páginas en la web. Es un método que
+proporciona información en tiempo real de las páginas que se encuentran
+disponibles en la red en el momento de la consulta. Puede buscar páginas
+personales utilizando METACRAWLER y conocimientos de la topología de la red
+para conseguirlo. Además aprende como fruto de la experiencia. Almacena
+información de manera que puede localizar páginas personales sin necesidad de
+que estén indexadas por los buscadores que utiliza METACRAWLER.</font></p>
+<p align="justify"><font size="2">SHOPBOT es un softbot que ayuda a realizar
+compras en la red. Para ello aprende a extraer información de productos de
+diferentes vendedores Web, información como el catálogo de productos, formato
+en que están representados los mismos y atributos de un producto, como el
+precio. Así, una vez que SHOPBOT ha aprendido todo de una serie de vendedores,
+es capaz de visitarlos rápidamente y presentar los detalles más importantes al
+usuario. Su algoritmo se basa en el Internet Learning Agent (ILA)(Perkowitz y
+Etzioni 1995).</font></p>
+<p align="justify"><font size="2">NETBOT JANGO es un softbot que aglutina y amplía
+las ideas y tecnologías de METACRAWLER, AHOY!, y SOFTBOT para crear realizar
+compras on-line en más de 20 categorías de productos. Como respuesta a una
+consulta, JANGO localiza vendedores y también sitios con información relativa
+al producto deseado. JANGO automáticamente crea una cuenta y password para
+ahorrar trabajo en futuras visitas.</font></p>
+<p align="justify"><font size="2">JANGO utiliza cuatro componentes clave: un
+lenguaje natural para interaccionar con el usuario, un query router, un
+aggregation engine y un filtro. La frase de consulta es tratada para dar las
+claves de la búsqueda al router. Éste identifica la categoría del producto y
+devuelve un conjunto de sitios web con información relevante.</font></p>
+<p align="justify"><font size="2">El aggregation engine es similar a METACRAWLER.
+Es decir, selecciona los sitios más releventes. Además utiliza unos &quot;wrapers&quot;
+para hacer un parsing de la información que proporcionan dichos sitios.
+Finalmente, el filtro refina la información que va a ser presentada al usuario.</font></p>
+<font size="3">
+<p align="justify">&nbsp;</p>
+</font>
+<p align="center"><font size="2">&nbsp;</font></p>
+<b>
+<p align="center"><font size="2">SAVVYSEARCH: Un metabuscador que aprende a
+elegir los motores de búsqueda en sus consultas </font></b><font size="2">por
+Adele E. Howe y Daniel Dreilinger</font></p>
+<font size="3">
+<p align="justify">&nbsp;</p>
+</font>
+<p align="justify"><font size="2">SavvySearch (Dreilinger y Howe, 1997 1996) es
+un metabuscador disponible en guaraldi.cs.colostate.edu:2000. Funciona en cinco
+máquinas (tres sparcs de Sun y dos IBM).</font></p>
+<p align="justify"><font size="2">SAVVYSEARCH está diseñado para maximizar la
+probabilidad de conseguir buenos enlaces y minimizar el uso de recursos
+(computación y uso de la red). Eso se consigue eligiendo los motores de búsqueda
+iniciales.</font></p>
+<p align="justify"><font size="2">Cuando un usuario realiza una consulta,
+SAVVYSEACH debe tomar dos decisiones:</font></p>
+<font size="3">
+<ol>
+  <p align="justify">&nbsp;</font>
+<li><font size="2">cuántos motores de búsqueda consultar</font><font size="3"></font>
+<li><font size="2">en qué orden hacerlo.</font><font size="3"></li>
+</ol>
+</font>
+<p align="justify"><font size="2">Lo primero se realiza consultando datos empíricos
+obtenidos en el pasado. Lo segundo, comprobando el ranking de cada motor. Para
+establecer el ranking se tienen en cuenta el número de enlaces visitados de
+entre el total de enlaces devueltos por el motor y los no visitados. Todo ello
+se ajusta con una serie de pesos e incluyendo información de la velocidad del
+motor en una serie de fórmulas.</font></p>
+<p align="justify"><font size="2">Según el ranking obtenido a partir de las fórmulas,
+los enlaces se muestran al usuario en determinado orden.</font></p>
+<font size="3"></font>
+<p align="center"></p>
+<b>
+<p align="center"><font size="2">APRENDIENDO PERFILES DE USUARIO PROBABILÍSTICOS</font></b><font size="2">
+por Mark Ackerman, Daniel Billsus, Scott Gaffney, Seth Hettich, Gordon Khoo,
+Dong Joon Kim, Ray Klefstad, Charles Lowe, Alexius Ludeman, Jack Muramatsu,
+Kazuo Omori, Michael J. Pazzani, Douglas Semler, Brian Starr y Paul Yap</font></p>
+<p align="justify">&nbsp;</p>
+<p align="justify"><font size="2">Este artículo describe tres agentes que
+ayudan al usuario encontrar información útil en la World Wide Web. Los agentes
+aprenden un perfil probabilístico para encontrar, clasificar u ordenar otras
+fuentes de información que pueden ser de interés para el usuario.</font></p>
+<font size="3"></font>
+<p align="justify"><font size="2">&nbsp;</font></p>
+<p align="justify"><font size="2">SYSKILL &amp; WEBER</font></p>
+<p align="justify"><font size="2">Está diseñado no para conseguir información
+concreta de un producto en la web, sino para aprender un perfil de usuario en
+función de las evaluaciones que hace el usuario de las páginas que le
+interesan. SYSKILL &amp; WEBER almacena estas informaciones (permite
+realimentación para actualizarlas) para aprender y utiliza un clasificador
+Bayesiano para crear el perfil. Este perfil será utilizado para calcular la
+probabilidad de que una página web interese al usuario. S&amp;W puede localizar
+las páginas de dos formas: a partir del índice creado para el perfil o
+construyendo una consulta para un motor de búsqueda.</font></p>
+<p align="justify"><font size="2">S&amp;W mantiene perfiles diferentes para
+temas diferentes. La razón es sencilla: las palabras claves que caracterizan páginas
+interesantes (que S&amp;W utiliza para discriminar las páginas más
+interesantes) de un tema (por ejemplo cantantes pop) serán completamente
+distintas de las que caracterizan otro (aplicaciones biológicas).</font></p>
+<font size="3">
+<p align="justify">&nbsp;</p>
+</font>
+<p align="justify"><font size="2">&nbsp;</font></p>
+<p align="justify"><font size="2">DICA (do-I-care-agent)</font></p>
+<p align="justify"><font size="2">Este agente intenta solucionar el problema de
+cuándo revisitar un sitio para buscar nuevo material. Para rastrear cambios
+interesantes un agente necesita saber cuáles son interesantes y dónde
+encontrarlos. DICA solicita la opinión del usuario sobre los cambios que
+encuentra para entrenar al modelo que hace del usuario. También utiliza el
+clasificador Bayesiano.Estas opiniones pueden ser compartidas con otros agentes.</font></p>
+<p align="justify"><font size="2">Ya que distintos cambios pueden ser
+interesantes por distintos motivos, se pueden mantener varios DICA operando en
+tipos particulares de páginas o tópicos. Cada DICA debe visitar periódicamente
+una lista de páginas, identificar los cambios, decidir si son interesantes,
+notificarlo al usuario, aceptar realimentación del cambio y facilitar información
+compartiendo lo obtenido con otros agentes.</font></p>
+<font size="3">
+<p align="justify">&nbsp;</p>
+</font>
+<p align="justify"><font size="2">&nbsp;</font></p>
+<p align="justify"><font size="2">GRANT LEARNER</font></p>
+<p align="justify"><font size="2">La idea de este agente es proporcionar un
+sistema que aprende a distinguir entre lo interesante y no interesante basándose
+en las calificaciones que hace el usuario. GL está conectado a una base de
+datos y ofrece al usuario un interface para moverse por dicha base de datos. El
+usuario puede calificar la información recuperada de la base de datos. Cuando
+GL tiene suficientes calificaciones crea un perfil de usuario que procesa el
+resto de la base de datos. Seguidamente, hace una serie de sugerencias al
+usuario con los datos que considera interesantes dentro de la base de datos.
+Utiliza también un clasificador bayesiano.</font></p>
+<font size="3"></font>
+<p align="justify"></p>
+<p align="justify"><font size="2">RESUMEN</font></p>
+<p align="justify"><font size="2">Se han descrito tres ejemplos de agentes
+inteligentes que están siendo desarrollados en la UCI. Todos hacen uso de un
+simple clasificador Bayesiano para aprender perfiles de usuario probabilísticos.
+La experiencia con estos agentes ha demostrado que este clasificador proporciona
+información útil para crear agentes que aprenden teniendo en cuenta la
+realimentación que puede hacer el usuario. El resultado final es una serie de
+recomendaciones de las páginas que pueden resultar más interesantes al
+usuario.</font></p>
+<font size="3">
+<p align="justify">&nbsp;</p>
+</font>
+<p align="justify"><font size="2">&nbsp;</font></p>
+
+<!--mstheme--></font></body>
+
+</html>

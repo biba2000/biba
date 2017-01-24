@@ -1,0 +1,109 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Agent</title>
+<meta name="Microsoft Theme" content="sumipntg 001, default">
+</head>
+
+<body background="../../../_themes/sumipntg/sumtextb.jpg" tppabs="http://www.fdi.ucm.es/_themes/sumipntg/sumtextb.jpg" bgcolor="#FFFFFF" text="#000066" link="#3333CC" vlink="#666699" alink="#990099"><!--mstheme--><font face="Verdana, Arial, Helvetica">
+
+<p class="MsoNormal"><b><u><span lang="EN-GB" style="mso-ansi-language:EN-GB"><font size="2">Agent-oriented
+programming </font></span></u></b><font size="2"><span lang="EN-GB" style="mso-ansi-language:EN-GB">(Autor:
+Yoac Shoham)<o:p>
+</o:p>
+</span></font></p>
+<p class="MsoNormal"><span lang="EN-GB" style="mso-ansi-language:EN-GB"><font size="2">&nbsp;</font></span><font size="2">Comentario:
+Emilio Bobadilla Álvarez</font></p>
+<p class="MsoNormal"><font size="2">&nbsp;</font><font size="2">Un nuevo
+paradigma es presentado en este artículo, la programación orientada a agentes,
+la cual se puede ver como una extensión de la programación orientada a
+objetos.</font></p>
+<p class="MsoNormal"><font size="2">&nbsp;</font><font size="2">Este “nuevo”
+paradigma presenta una sociedad de múltiples agentes comunicándose unos con
+otros.</font></p>
+<p class="MsoNormal"><font size="2">Cada agente es visto como una extensión de
+las capacidades de un objeto clásico.</font></p>
+<p class="MsoNormal"><font size="2">&nbsp;</font><font size="2">Los<span style="mso-spacerun: yes">&nbsp;
+</span>agentes son entidades autónomas que trabajan en un entorno, tomando
+decisiones y comunicándose unos con otras. Los agentes, como abstracciones de
+alto nivel con capacidades de comunicación mediante lenguaje natural, contienen
+planes que desarrollan en respuesta a la activación de las reglas de control
+debido a los estímulos que reciben.</font></p>
+<p class="MsoNormal"><font size="2">&nbsp;</font><font size="2">El estado de un
+agentes se compone de un conjunto de componentes mentales, tales como: hechos,
+capacidades, elecciones y compromisos.</font></p>
+<p class="MsoNormal"><font size="2">&nbsp;</font><font size="2">Así, en un
+momento determinado, una agente conoce unos determinados hechos y en basa a
+ellos y a los estímulos externos que recibe determina cual de las posibles
+acciones debe elegir parar actuar. Una vez que elige una acción, se compromete
+a su resolución (planning).</font></p>
+<p class="MsoNormal"><font size="2">&nbsp;</font><font size="2">Lo que define
+que un Sw/Hw sea orientado a agentes, es el pensar en el control del sistema en
+términos de estado mental.</font></p>
+<p class="MsoNormal"><font size="2">&nbsp;</font><font size="2">Un sistema AOP (agent-oriented
+programming ) debe incluir un lenguaje para describir el estado mental de los
+agentes y un intérprete de agentes en el cual se definen y programan a los
+agentes.</font></p>
+<p class="MsoNormal"><font size="2">&nbsp;</font><font size="2">La descripción
+de un lenguaje para definir el estado mental de los agentes debe incluir un
+mecanismo parar asertar, pedir, obligar, decidir,… En definitiva un lenguaje
+para expresar el estado y el comportamiento de los agentes a lo largo de su
+ciclo de vida.</font></p>
+<p class="MsoNormal"><font size="2">&nbsp;</font><font size="2">El interprete de
+agentes es visto como un entorno en donde se pueden programar agentes y hacer
+que estos se relacionen con otros agente. El ciclo principal de funcionamiento
+del interprete de agentes es:</font></p>
+<p class="MsoNormal"><font size="2">1.<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Observar los eventos que llegan del exterior y actualizar el estado
+mental de los agentes.</font></p>
+<p class="MsoNormal"><font size="2">2.<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Ejecutar las acciones a las que se han comprometido los agentes.</font></p>
+<p class="MsoNormal"><font size="2">Del punto 2 se extra a su vez nuevo
+conocimiento, el cual realimenta el sistema.</font></p>
+<p class="MsoNormal"><font size="2">El funcionamiento del interprete es marcado
+por un reloj que actúa en tiempo real, ya que parece claro que por su propia
+naturaleza los agentes actúan en tiempo real ante los sucesos que les llegan
+del exterior.</font></p>
+<p class="MsoNormal"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></p>
+<p class="MsoNormal"><font size="2">Al final del articulo se propone un lenguaje
+de programación de agentes: AGENT-0, el cual nos permite:</font></p>
+<p class="MsoNormal"><font size="2"><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Asertar hechos.</font></p>
+<p class="MsoNormal"><span style="mso-spacerun: yes"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="2">Expresar acciones condicionales.</font></p>
+<p class="MsoNormal" style="margin-left:14.2pt;text-indent:-14.2pt"><span style="mso-spacerun: yes"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="2">Comunicación entre agentes:</font></p>
+<p class="MsoNormal" style="margin-left:35.4pt"><font size="2">Informar de un
+hecho.</font></p>
+<p class="MsoNormal" style="margin-left:35.4pt"><font size="2">Pedir que se
+realice una acción.</font></p>
+<p class="MsoNormal" style="margin-left:35.4pt"><font size="2">Cancelar la
+petición de una acción.</font></p>
+<p class="MsoNormal"><span style="mso-spacerun: yes"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="2">Determinar las responsabilidades entre los agentes.</font></p>
+<p class="MsoNormal"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></p>
+<h2><!--mstheme--><font color="#003366"><u><font size="2">Conclusión<o:p>
+</o:p>
+</font></u><!--mstheme--></font></h2>
+<p class="MsoNormal"><font size="2">La programación orientada a agentes es un
+nuevo paradigma que extiende las capacidades de la POO clásica. Los agentes
+viven en un mundo donde deben ser capaces de relacionarse con otros agentes y
+además deben ser capaces de reaccionar ante el exterior, llevando acabo
+acciones inteligentes a través de su estado mental.</font></p>
+<p class="MsoNormal"><b><u><font size="2">&nbsp;<o:p>
+</o:p>
+</font></u></b></p>
+<p class="MsoNormal"><b><font size="2">&nbsp;<o:p>
+</o:p>
+</font></b></p>
+
+<!--mstheme--></font></body>
+
+</html>

@@ -1,0 +1,91 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title></title>
+</head>
+
+<p align="right">&nbsp;</p>
+
+
+<script>
+
+function esVacioTexto() {
+
+   if ( document.enviar.nombre.value=="" ) {
+      //alert("vacio");
+      return false;
+
+   }
+   else {
+      //alert("lleno <" + document.formularioGlobal.textoBusqueda.value + ">");
+      return true;
+   }
+}
+
+
+
+function focoEnNombre() {
+
+   document.enviar.nombre.focus();
+}
+</script>
+
+
+<body bgcolor="#FFFFFF" onload="focoEnNombre()">
+
+<blockquote>
+    <div align="center"><center>
+    
+
+<table border="0" bgcolor="#C0C0C0" bordercolor="#000000"
+bordercolordark="#000000" bordercolorlight="#C0C0C0" width="380">
+    <tr>
+        <td bgcolor="#FFFFFF" nowrap><p align="left"><img
+        src="jsp/images/bibalogo.JPG" width="180" height="45"></p>
+        </td>
+    </tr>
+        <tr>
+            <td><br><strong><CENTER>COMENZAR
+            SESIÓN DE BÚSQUEDA</strong></font></center></td>
+        </tr>
+
+    <tr>
+                    <tr>
+            <td><p align="center"><br>Introduzca su nick y su contraseña</font></p>
+            <form action="servlet/ServletInicio" method="POST" name="enviar" onSubmit='return esVacioTexto()'>
+                <input type="hidden" name="action"
+                value="abrirSesion"><font color="#F0C44D"><!-- Utilizamos una entrada de tipo oculto para enviar la informacion
+                	al Servlet de que la acción a realizar es la de registro--></font><p
+                align="center">Nombre <input
+                type="text" size="15" name="nombre"></font></p>
+                <p align="center">Contraseña
+                <input type="password" size="15"
+                name="contrasena"></font></p>
+                <p align="center"><input
+                type="submit" value="Enviar"> </font> 
+		<input type="reset" name="B1"
+                value="Reset"></p>
+            </form>
+            </td>
+        </tr>
+    
+        
+        </table>
+        </center></div></td>
+    </tr>
+    
+    
+
+</blockquote>
+<center>
+ <a href="index.html"><img src="jsp/images/flechaIz.gif"
+border="0" width="25" height="25"></a><br>
+<a href="index.html">volver </a>
+</center>
+
+<p>&nbsp;</p>
+</body>
+</html>

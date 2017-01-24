@@ -1,0 +1,32 @@
+estado 0
+  num_hits>1; 
+  any>0;
+estado 1
+  num_hits>2;
+  any>1;
+estado 2
+  num_hits>3;
+  any>2;
+estado 3
+  num_hits>4,captura_hits;
+  any>3;
+estado 4
+  li>5;
+  any>4;
+estado 5
+  href>6;
+  any>5;
+estado 6
+  em>7;
+  texto>6,concatena_titulo;
+  any>6;
+estado 7
+  texto>8,captura_href;
+  any>7;
+estado 8
+  texto>8;
+  /font>4,genera_dato,reset_titulo;
+  any>8; 
+FIN
+
+"http://www.lycos.es/cgi-bin/pursuit?matchmode=and&mtemp=main&etemp=error&loc=searchbox&adv=1&query=" + consulta_formateada + "&cat=graphics&x=39&y=10";

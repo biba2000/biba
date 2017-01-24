@@ -1,0 +1,2954 @@
+
+(object Petal
+    version    	43
+    _written   	"Rose 6.5.9232.10"
+    charSet    	0)
+
+(object Design "Logical View"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"3AC765DA01FE"
+    defaults   	(object defaults
+	rightMargin 	0.250000
+	leftMargin 	0.250000
+	topMargin  	0.250000
+	bottomMargin 	0.500000
+	pageOverlap 	0.250000
+	clipIconLabels 	TRUE
+	autoResize 	TRUE
+	snapToGrid 	TRUE
+	gridX      	15
+	gridY      	15
+	defaultFont 	(object Font
+	    size       	10
+	    face       	"Arial"
+	    bold       	FALSE
+	    italics    	FALSE
+	    underline  	FALSE
+	    strike     	FALSE
+	    color      	0
+	    default_color 	TRUE)
+	showMessageNum 	0
+	showClassOfObject 	TRUE
+	notation   	"Unified")
+    root_usecase_package 	(object Class_Category "Use Case View"
+	quid       	"3AC765DA0230"
+	exportControl 	"Public"
+	global     	TRUE
+	logical_models 	(list unit_reference_list)
+	logical_presentations 	(list unit_reference_list
+	    (object UseCaseDiagram "Main"
+		quid       	"3AC765E300F1"
+		title      	"Main"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list))))
+    root_category 	(object Class_Category "Logical View"
+	quid       	"3AC765DA01FF"
+	exportControl 	"Public"
+	global     	TRUE
+	subsystem  	"Component View"
+	quidu      	"3AC765DA0231"
+	logical_models 	(list unit_reference_list
+	    (object Class "Agente 1"
+		quid       	"3AC8C586003C")
+	    (object Class "Agente 2"
+		quid       	"3AC8C58F0154")
+	    (object Class "Agente 3"
+		quid       	"3AC8C59A03A2")
+	    (object Class "Agente Coordiandor"
+		quid       	"3AC8C5A70014")
+	    (object Class "Interfaz de Comunicación 1"
+		quid       	"3AC8C5BE02B2"
+		stereotype 	"Interface")
+	    (object Class "Interfaz de Comunicación 2"
+		quid       	"3AC8C5CF006E"
+		stereotype 	"Interface")
+	    (object Class "Interfaz de Comunicación 3"
+		quid       	"3AC8C5DF0028"
+		stereotype 	"Interface")
+	    (object Association "$UNNAMED$0"
+		quid       	"3AC8C5B203AC"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$1"
+			quid       	"3AC8C5B30140"
+			supplier   	"Logical View::Agente 1"
+			quidu      	"3AC8C586003C"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$2"
+			quid       	"3AC8C5B30141"
+			supplier   	"Logical View::Agente Coordiandor"
+			quidu      	"3AC8C5A70014")))
+	    (object Association "$UNNAMED$3"
+		quid       	"3AC8C5B500BE"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$4"
+			quid       	"3AC8C5B501CC"
+			supplier   	"Logical View::Agente 2"
+			quidu      	"3AC8C58F0154"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$5"
+			quid       	"3AC8C5B50208"
+			supplier   	"Logical View::Agente Coordiandor"
+			quidu      	"3AC8C5A70014")))
+	    (object Association "$UNNAMED$6"
+		quid       	"3AC8C5B70186"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$7"
+			quid       	"3AC8C5B703DE"
+			supplier   	"Logical View::Agente 3"
+			quidu      	"3AC8C59A03A2"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$8"
+			quid       	"3AC8C5B703DF"
+			supplier   	"Logical View::Agente Coordiandor"
+			quidu      	"3AC8C5A70014")))
+	    (object Association "$UNNAMED$9"
+		quid       	"3AC8C5C5030C"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$10"
+			quid       	"3AC8C5C600DC"
+			supplier   	"Logical View::Interfaz de Comunicación 1"
+			quidu      	"3AC8C5BE02B2"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$11"
+			quid       	"3AC8C5C600DD"
+			supplier   	"Logical View::Agente 1"
+			quidu      	"3AC8C586003C")))
+	    (object Association "$UNNAMED$12"
+		quid       	"3AC8C5DA01AE"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$13"
+			quid       	"3AC8C5DA03D4"
+			supplier   	"Logical View::Interfaz de Comunicación 2"
+			quidu      	"3AC8C5CF006E"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$14"
+			quid       	"3AC8C5DA03D5"
+			supplier   	"Logical View::Agente 2"
+			quidu      	"3AC8C58F0154")))
+	    (object Association "$UNNAMED$15"
+		quid       	"3AC8C5E10122"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$16"
+			quid       	"3AC8C5E10348"
+			supplier   	"Logical View::Interfaz de Comunicación 3"
+			quidu      	"3AC8C5DF0028"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$17"
+			quid       	"3AC8C5E10349"
+			supplier   	"Logical View::Agente 3"
+			quidu      	"3AC8C59A03A2")))
+	    (object Class_Category "Sistema Multi Agente"
+		quid       	"3AC8C540005A"
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list)
+		logical_presentations 	(list unit_reference_list))
+	    (object Class_Category "Mundo Exterior"
+		quid       	"3AC8C5610064"
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list)
+		logical_presentations 	(list unit_reference_list))
+	    (object Class_Category "Sistema Mutiagente"
+		quid       	"3AC8C57502B2"
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list)
+		logical_presentations 	(list unit_reference_list))
+	    (object Mechanism @1
+		logical_models 	(list unit_reference_list
+		    (object Object "Agente A"
+			quid       	"3AC7660801E0"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3AC7662902C6"
+				supplier   	"Agente B"
+				quidu      	"3AC7661001B8"
+				messages   	(list Messages
+				    (object Message "A realiza un apetición a B"
+					quid       	"3AC76638028A"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1"
+					ordinal    	0)
+				    (object Message "B develve el resultado"
+					quid       	"3AC7668901F4"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"ToClientFromSupplier"
+					sequence   	"3"
+					ordinal    	2)))
+			    (object Link
+				quid       	"3AC7662F0136"
+				supplier   	"Agente A"
+				quidu      	"3AC7660801E0"
+				messages   	(list Messages
+				    (object Message "A se queda bloqueado esperando el resultado de B"
+					quid       	"3AC7666902BC"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2"
+					ordinal    	1))))
+			persistence 	"Transient"
+			multi      	FALSE)
+		    (object Object "Agente B"
+			quid       	"3AC7661001B8"
+			persistence 	"Transient"
+			multi      	FALSE)))
+	    (object Mechanism @2
+		logical_models 	(list unit_reference_list
+		    (object Object "Agente B"
+			quid       	"3AC767190082"
+			persistence 	"Transient"
+			multi      	FALSE)
+		    (object Object "Agente A"
+			quid       	"3AC7671702F8"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3AC767290118"
+				supplier   	"Agente A"
+				quidu      	"3AC7671702F8")
+			    (object Link
+				quid       	"3AC7674700A0"
+				supplier   	"Agente B"
+				quidu      	"3AC767190082"
+				messages   	(list Messages
+				    (object Message "A realiza una petición a B"
+					quid       	"3AC7674700A1"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1"
+					ordinal    	0)
+				    (object Message "B llama a A (callback) para entregar el resultado que pidió A"
+					quid       	"3AC7677600E6"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"ToClientFromSupplier"
+					sequence   	"2"
+					ordinal    	1))))
+			persistence 	"Transient"
+			multi      	FALSE)))
+	    (object Mechanism @3
+		logical_models 	(list unit_reference_list
+		    (object Object "Agente A"
+			quid       	"3AC7682C0212"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3AC768540348"
+				supplier   	"Buzón A"
+				quidu      	"3AC7684B0078"
+				messages   	(list Messages
+				    (object Message "hay eventos sin procesar?"
+					quid       	"3AC76934003C"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"6"
+					ordinal    	5)
+				    (object Message "Buzón A entrega respuesta a A"
+					quid       	"3AC769640078"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"ToClientFromSupplier"
+					sequence   	"7"
+					ordinal    	6)))
+			    (object Link
+				quid       	"3AC76895010E"
+				supplier   	"Buzón B"
+				quidu      	"3AC7687C00AA"
+				messages   	(list Messages
+				    (object Message "A envía petición a B"
+					quid       	"3AC76895010F"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1"
+					ordinal    	0))))
+			persistence 	"Transient"
+			multi      	FALSE)
+		    (object Object "Agente B"
+			quid       	"3AC768310244"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3AC768A8010E"
+				supplier   	"Buzón B"
+				quidu      	"3AC7687C00AA"
+				messages   	(list Messages
+				    (object Message "hay eventos sin procesar?"
+					quid       	"3AC768A8010F"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2"
+					ordinal    	1)
+				    (object Message "Buzón B entrega peticiones a B"
+					quid       	"3AC768BB00AA"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"ToClientFromSupplier"
+					sequence   	"3"
+					ordinal    	2)))
+			    (object Link
+				quid       	"3AC768CB00D2"
+				supplier   	"Agente B"
+				quidu      	"3AC768310244"
+				messages   	(list Messages
+				    (object Message "B elabora respuesta"
+					quid       	"3AC768CB00D3"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"4"
+					ordinal    	3)))
+			    (object Link
+				quid       	"3AC768D50096"
+				supplier   	"Buzón A"
+				quidu      	"3AC7684B0078"
+				messages   	(list Messages
+				    (object Message "B envía respuesta a A"
+					quid       	"3AC768D50097"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"5"
+					ordinal    	4))))
+			persistence 	"Transient"
+			multi      	FALSE)
+		    (object Object "Buzón A"
+			quid       	"3AC7684B0078"
+			persistence 	"Transient"
+			multi      	FALSE)
+		    (object Object "Buzón B"
+			quid       	"3AC7687C00AA"
+			persistence 	"Transient"
+			multi      	FALSE)))
+	    (object Mechanism @4
+		logical_models 	(list unit_reference_list
+		    (object Object "Agente A"
+			quid       	"3AC769920398"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3AC769C30212"
+				supplier   	"Agente B"
+				quidu      	"3AC769A1035C"
+				messages   	(list Messages
+				    (object Message "Tarea 1"
+					quid       	"3AC769C30213"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1"
+					ordinal    	0)))
+			    (object Link
+				quid       	"3AC769C802E4"
+				supplier   	"Agente C"
+				quidu      	"3AC769A603C0"
+				messages   	(list Messages
+				    (object Message "Tarea 2"
+					quid       	"3AC769C802E5"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2"
+					ordinal    	1)))
+			    (object Link
+				quid       	"3AC769CB028A"
+				supplier   	"Agente D"
+				quidu      	"3AC769B100B4"
+				messages   	(list Messages
+				    (object Message "Tarea 3"
+					quid       	"3AC769CB028B"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"3"
+					ordinal    	2)))
+			    (object Link
+				quid       	"3AC76AB9021C"
+				supplier   	"Buzón"
+				quidu      	"3AC7699702B2"
+				messages   	(list Messages
+				    (object Message "obtener resultado Tareas"
+					quid       	"3AC76AB9021D"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"6"
+					ordinal    	5)
+				    (object Message "entrega resultados Tareas"
+					quid       	"3AC76AC8035C"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"ToClientFromSupplier"
+					sequence   	"7"
+					ordinal    	6))))
+			persistence 	"Transient"
+			multi      	FALSE)
+		    (object Object "Buzón"
+			quid       	"3AC7699702B2"
+			persistence 	"Transient"
+			multi      	FALSE)
+		    (object Object "Agente B"
+			quid       	"3AC769A1035C"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3AC76A390122"
+				supplier   	"Buzón"
+				quidu      	"3AC7699702B2"
+				messages   	(list Messages
+				    (object Message "Resultados Tarea 1"
+					quid       	"3AC76AF5023A"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"8"
+					ordinal    	7))))
+			persistence 	"Transient"
+			multi      	FALSE)
+		    (object Object "Agente C"
+			quid       	"3AC769A603C0"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3AC76A560154"
+				supplier   	"Buzón"
+				quidu      	"3AC7699702B2"
+				messages   	(list Messages
+				    (object Message "Resultados Tarea 2"
+					quid       	"3AC76A560155"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"5"
+					ordinal    	4))))
+			persistence 	"Transient"
+			multi      	FALSE)
+		    (object Object "Agente D"
+			quid       	"3AC769B100B4"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3AC76A2B0294"
+				supplier   	"Buzón"
+				quidu      	"3AC7699702B2"
+				messages   	(list Messages
+				    (object Message "Resultados Tarea 3"
+					quid       	"3AC76A2B0295"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"4"
+					ordinal    	3))))
+			persistence 	"Transient"
+			multi      	FALSE))))
+	logical_presentations 	(list unit_reference_list
+	    (object ClassDiagram "Main"
+		quid       	"3AC765E3023A"
+		title      	"Main"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	420
+		items      	(list diagram_item_list
+		    (object CategoryView "Logical View::Mundo Exterior" @5
+			location   	(975, 960)
+			label      	(object ItemLabel
+			    Parent_View 	@5
+			    location   	(389, 529)
+			    fill_color 	13434879
+			    nlines     	2
+			    max_width  	1172
+			    justify    	0
+			    label      	"Mundo Exterior")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC8C5610064"
+			width      	1185
+			height     	875)
+		    (object CategoryView "Logical View::Sistema Mutiagente" @6
+			location   	(975, 975)
+			label      	(object ItemLabel
+			    Parent_View 	@6
+			    location   	(431, 676)
+			    fill_color 	13434879
+			    nlines     	2
+			    max_width  	1088
+			    justify    	0
+			    label      	"Sistema Mutiagente")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC8C57502B2"
+			width      	1100
+			height     	610)
+		    (object ClassView "Class" "Logical View::Agente Coordiandor" @7
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			ShowOperationSignature 	TRUE
+			location   	(1020, 840)
+			label      	(object ItemLabel
+			    Parent_View 	@7
+			    location   	(820, 794)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	400
+			    justify    	0
+			    label      	"Agente Coordiandor")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC8C5A70014"
+			width      	418
+			height     	114
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::Agente 1" @8
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			ShowOperationSignature 	TRUE
+			location   	(675, 1035)
+			label      	(object ItemLabel
+			    Parent_View 	@8
+			    location   	(582, 989)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	186
+			    justify    	0
+			    label      	"Agente 1")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC8C586003C"
+			width      	204
+			height     	114
+			annotation 	8
+			autoResize 	TRUE)
+		    (object AssociationViewNew "$UNNAMED$0" @9
+			location   	(844, 937)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3AC8C5B203AC"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$1" @10
+				Parent_View 	@9
+				location   	(-176, 97)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3AC8C5B30140"
+				client     	@9
+				supplier   	@8
+				line_style 	0)
+			    (object RoleView "$UNNAMED$2" @11
+				Parent_View 	@9
+				location   	(-176, 97)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3AC8C5B30141"
+				client     	@9
+				supplier   	@7
+				line_style 	0)))
+		    (object ClassView "Class" "Logical View::Interfaz de Comunicación 1" @12
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			ShowOperationSignature 	TRUE
+			location   	(675, 1170)
+			label      	(object ItemLabel
+			    Parent_View 	@12
+			    location   	(674, 1278)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	298
+			    justify    	0
+			    label      	"Interfaz de Comunicación 1")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC8C5BE02B2"
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object AssociationViewNew "$UNNAMED$9" @13
+			location   	(675, 1102)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3AC8C5C5030C"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$10" @14
+				Parent_View 	@13
+				location   	(15, 22)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3AC8C5C600DC"
+				client     	@13
+				supplier   	@12
+				line_style 	0)
+			    (object RoleView "$UNNAMED$11" @15
+				Parent_View 	@13
+				location   	(15, 22)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3AC8C5C600DD"
+				client     	@13
+				supplier   	@8
+				line_style 	0)))
+		    (object ClassView "Class" "Logical View::Agente 2" @16
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			ShowOperationSignature 	TRUE
+			location   	(990, 1035)
+			label      	(object ItemLabel
+			    Parent_View 	@16
+			    location   	(897, 989)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	186
+			    justify    	0
+			    label      	"Agente 2")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC8C58F0154"
+			width      	204
+			height     	114
+			annotation 	8
+			autoResize 	TRUE)
+		    (object AssociationViewNew "$UNNAMED$3" @17
+			location   	(1004, 937)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3AC8C5B500BE"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$4" @18
+				Parent_View 	@17
+				location   	(-16, 97)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3AC8C5B501CC"
+				client     	@17
+				supplier   	@16
+				line_style 	0)
+			    (object RoleView "$UNNAMED$5" @19
+				Parent_View 	@17
+				location   	(-16, 97)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3AC8C5B50208"
+				client     	@17
+				supplier   	@7
+				line_style 	0)))
+		    (object ClassView "Class" "Logical View::Interfaz de Comunicación 2" @20
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			ShowOperationSignature 	TRUE
+			location   	(990, 1170)
+			label      	(object ItemLabel
+			    Parent_View 	@20
+			    location   	(989, 1278)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	298
+			    justify    	0
+			    label      	"Interfaz de Comunicación 2")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC8C5CF006E"
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object AssociationViewNew "$UNNAMED$12" @21
+			location   	(990, 1102)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3AC8C5DA01AE"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$13" @22
+				Parent_View 	@21
+				location   	(0, 22)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3AC8C5DA03D4"
+				client     	@21
+				supplier   	@20
+				line_style 	0)
+			    (object RoleView "$UNNAMED$14" @23
+				Parent_View 	@21
+				location   	(0, 22)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3AC8C5DA03D5"
+				client     	@21
+				supplier   	@16
+				line_style 	0)))
+		    (object ClassView "Class" "Logical View::Agente 3" @24
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			ShowOperationSignature 	TRUE
+			location   	(1305, 1050)
+			label      	(object ItemLabel
+			    Parent_View 	@24
+			    location   	(1212, 1004)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	186
+			    justify    	0
+			    label      	"Agente 3")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC8C59A03A2"
+			width      	204
+			height     	114
+			annotation 	8
+			autoResize 	TRUE)
+		    (object AssociationViewNew "$UNNAMED$6" @25
+			location   	(1162, 944)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3AC8C5B70186"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$7" @26
+				Parent_View 	@25
+				location   	(142, 104)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3AC8C5B703DE"
+				client     	@25
+				supplier   	@24
+				line_style 	0)
+			    (object RoleView "$UNNAMED$8" @27
+				Parent_View 	@25
+				location   	(142, 104)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3AC8C5B703DF"
+				client     	@25
+				supplier   	@7
+				line_style 	0)))
+		    (object ClassView "Class" "Logical View::Interfaz de Comunicación 3" @28
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			ShowOperationSignature 	TRUE
+			location   	(1305, 1170)
+			label      	(object ItemLabel
+			    Parent_View 	@28
+			    location   	(1304, 1278)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	298
+			    justify    	0
+			    label      	"Interfaz de Comunicación 3")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC8C5DF0028"
+			width      	58
+			height     	58
+			annotation 	8
+			autoResize 	TRUE)
+		    (object AssociationViewNew "$UNNAMED$15" @29
+			location   	(1305, 1110)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3AC8C5E10122"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$16" @30
+				Parent_View 	@29
+				location   	(-15, 30)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3AC8C5E10348"
+				client     	@29
+				supplier   	@28
+				line_style 	0)
+			    (object RoleView "$UNNAMED$17" @31
+				Parent_View 	@29
+				location   	(-15, 30)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3AC8C5E10349"
+				client     	@29
+				supplier   	@24
+				line_style 	0)))))
+	    (object InteractionDiagram "Prodedure call Mechanism"
+		mechanism_ref 	@1
+		quid       	"3AC765EF02C6"
+		title      	"Prodedure call Mechanism"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list
+		    (object InterObjView "Agente A" @32
+			location   	(525, 225)
+			font       	(object Font
+			    underline  	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@32
+			    location   	(525, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"Agente A")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC7660801E0"
+			width      	300
+			height     	720
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @33
+			    location   	(525, 435)
+			    line_color 	3342489
+			    InterObjView 	@32
+			    height     	255
+			    y_coord    	195
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @34
+			    location   	(525, 570)
+			    line_color 	3342489
+			    InterObjView 	@32
+			    height     	60
+			    y_coord    	0
+			    Nested     	TRUE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @35
+			    location   	(525, 735)
+			    line_color 	3342489
+			    InterObjView 	@32
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE))
+		    (object InterObjView "Agente B" @36
+			location   	(1110, 225)
+			font       	(object Font
+			    underline  	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@36
+			    location   	(1110, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"Agente B")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC7661001B8"
+			width      	300
+			height     	720
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @37
+			    location   	(1110, 435)
+			    line_color 	3342489
+			    InterObjView 	@36
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @38
+			    location   	(1110, 705)
+			    line_color 	3342489
+			    InterObjView 	@36
+			    height     	150
+			    y_coord    	90
+			    Nested     	FALSE))
+		    (object InterMessView "" @39
+			location   	(15, 435)
+			label      	(object SegLabel @40
+			    Parent_View 	@39
+			    location   	(817, 391)
+			    quidu      	"3AC76638028A"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	533
+			    justify    	0
+			    label      	"A realiza un apetición a B"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@32
+			supplier   	@36
+			Focus_Src  	@33
+			Focus_Entry 	@37
+			origin     	(540, 435)
+			terminus   	(1094, 435)
+			ordinal    	0)
+		    (object SelfMessView "" @41
+			location   	(15, 570)
+			label      	(object SegLabel @42
+			    Parent_View 	@41
+			    location   	(526, 541)
+			    quidu      	"3AC7666902BC"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	826
+			    justify    	0
+			    label      	"A se queda bloqueado esperando el resultado de B"
+			    pctDist    	-0.100000
+			    height     	29
+			    orientation 	0)
+			line_color 	3342489
+			client     	@32
+			supplier   	@32
+			Focus_Src  	@33
+			Focus_Entry 	@34
+			origin     	(541, 570)
+			terminus   	(691, 570)
+			ordinal    	1)
+		    (object InterMessView "" @43
+			location   	(15, 735)
+			label      	(object SegLabel @44
+			    Parent_View 	@43
+			    location   	(818, 691)
+			    quidu      	"3AC7668901F4"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	381
+			    justify    	0
+			    label      	"B develve el resultado"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	1)
+			line_color 	3342489
+			client     	@36
+			supplier   	@32
+			Focus_Src  	@38
+			Focus_Entry 	@35
+			origin     	(1094, 735)
+			terminus   	(541, 735)
+			ordinal    	2)
+		    (object NoteView @45
+			location   	(570, 885)
+			label      	(object ItemLabel
+			    Parent_View 	@45
+			    location   	(365, 811)
+			    fill_color 	13434879
+			    nlines     	3
+			    max_width  	375
+			    label      	"A continúa con su ejecución")
+			line_color 	3342489
+			fill_color 	13434879
+			width      	435
+			height     	160)))
+	    (object InteractionDiagram "The callback mechanism"
+		mechanism_ref 	@2
+		quid       	"3AC767060348"
+		title      	"The callback mechanism"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list
+		    (object InterObjView "Agente A" @46
+			location   	(450, 225)
+			font       	(object Font
+			    underline  	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@46
+			    location   	(450, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"Agente A")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC7671702F8"
+			width      	300
+			height     	885
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @47
+			    location   	(450, 360)
+			    line_color 	3342489
+			    InterObjView 	@46
+			    height     	120
+			    y_coord    	60
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @48
+			    location   	(450, 900)
+			    line_color 	3342489
+			    InterObjView 	@46
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE))
+		    (object InterObjView "Agente B" @49
+			location   	(1185, 225)
+			font       	(object Font
+			    underline  	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@49
+			    location   	(1185, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"Agente B")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC767190082"
+			width      	300
+			height     	885
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @50
+			    location   	(1185, 360)
+			    line_color 	3342489
+			    InterObjView 	@49
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @51
+			    location   	(1185, 900)
+			    line_color 	3342489
+			    InterObjView 	@49
+			    height     	120
+			    y_coord    	60
+			    Nested     	FALSE))
+		    (object NoteView @52
+			location   	(525, 600)
+			label      	(object ItemLabel
+			    Parent_View 	@52
+			    location   	(320, 486)
+			    fill_color 	13434879
+			    nlines     	5
+			    max_width  	375
+			    label      	"A continúa con su ejecución sin esperar el resultado de B")
+			line_color 	3342489
+			fill_color 	13434879
+			width      	435
+			height     	240)
+		    (object InterMessView "" @53
+			location   	(15, 360)
+			label      	(object SegLabel @54
+			    Parent_View 	@53
+			    location   	(817, 316)
+			    quidu      	"3AC7674700A1"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	443
+			    justify    	0
+			    label      	"A realiza una petición a B"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@46
+			supplier   	@49
+			Focus_Src  	@47
+			Focus_Entry 	@50
+			origin     	(465, 360)
+			terminus   	(1169, 360)
+			ordinal    	0)
+		    (object InterMessView "" @55
+			location   	(15, 900)
+			label      	(object SegLabel @56
+			    Parent_View 	@55
+			    location   	(819, 856)
+			    quidu      	"3AC7677600E6"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	967
+			    justify    	0
+			    label      	"B llama a A (callback) para entregar el resultado que pidió A"
+			    pctDist    	0.497866
+			    height     	44
+			    orientation 	1)
+			line_color 	3342489
+			client     	@49
+			supplier   	@46
+			Focus_Src  	@51
+			Focus_Entry 	@48
+			origin     	(1169, 900)
+			terminus   	(466, 900)
+			ordinal    	1)))
+	    (object InteractionDiagram "The mailbox mechanism agente/buzón"
+		mechanism_ref 	@3
+		quid       	"3AC7681F02DA"
+		title      	"The mailbox mechanism agente/buzón"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	140
+		items      	(list diagram_item_list
+		    (object InterObjView "Agente A" @57
+			location   	(300, 225)
+			font       	(object Font
+			    underline  	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@57
+			    location   	(300, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"Agente A")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC7682C0212"
+			width      	300
+			height     	1425
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @58
+			    location   	(300, 390)
+			    line_color 	3342489
+			    InterObjView 	@57
+			    height     	120
+			    y_coord    	60
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @59
+			    location   	(300, 1230)
+			    line_color 	3342489
+			    InterObjView 	@57
+			    height     	150
+			    y_coord    	90
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @60
+			    location   	(300, 1440)
+			    line_color 	3342489
+			    InterObjView 	@57
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE))
+		    (object InterObjView "Agente B" @61
+			location   	(1590, 225)
+			font       	(object Font
+			    underline  	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@61
+			    location   	(1590, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"Agente B")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC768310244"
+			width      	300
+			height     	1425
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @62
+			    location   	(1590, 480)
+			    line_color 	3342489
+			    InterObjView 	@61
+			    height     	165
+			    y_coord    	105
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @63
+			    location   	(1590, 720)
+			    line_color 	3342489
+			    InterObjView 	@61
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @64
+			    location   	(1590, 870)
+			    line_color 	3342489
+			    InterObjView 	@61
+			    height     	135
+			    y_coord    	75
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @65
+			    location   	(1590, 885)
+			    line_color 	3342489
+			    InterObjView 	@61
+			    height     	60
+			    y_coord    	0
+			    Nested     	TRUE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @66
+			    location   	(1590, 1080)
+			    line_color 	3342489
+			    InterObjView 	@61
+			    height     	120
+			    y_coord    	60
+			    Nested     	FALSE))
+		    (object InterObjView "Buzón B" @67
+			location   	(1140, 225)
+			font       	(object Font
+			    underline  	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@67
+			    location   	(1140, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"Buzón B")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC7687C00AA"
+			width      	300
+			height     	1425
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @68
+			    location   	(1140, 390)
+			    line_color 	3342489
+			    InterObjView 	@67
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @69
+			    location   	(1140, 525)
+			    line_color 	3342489
+			    InterObjView 	@67
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @70
+			    location   	(1140, 690)
+			    line_color 	3342489
+			    InterObjView 	@67
+			    height     	150
+			    y_coord    	90
+			    Nested     	FALSE))
+		    (object InterObjView "Buzón A" @71
+			location   	(720, 225)
+			font       	(object Font
+			    underline  	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@71
+			    location   	(720, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"Buzón A")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC7684B0078"
+			width      	300
+			height     	1425
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @72
+			    location   	(720, 1080)
+			    line_color 	3342489
+			    InterObjView 	@71
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @73
+			    location   	(720, 1260)
+			    line_color 	3342489
+			    InterObjView 	@71
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @74
+			    location   	(720, 1440)
+			    line_color 	3342489
+			    InterObjView 	@71
+			    height     	120
+			    y_coord    	60
+			    Nested     	FALSE))
+		    (object InterMessView "" @75
+			location   	(15, 390)
+			label      	(object SegLabel @76
+			    Parent_View 	@75
+			    location   	(719, 346)
+			    quidu      	"3AC76895010F"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	345
+			    justify    	0
+			    label      	"A envía petición a B"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@57
+			supplier   	@67
+			Focus_Src  	@58
+			Focus_Entry 	@68
+			origin     	(315, 390)
+			terminus   	(1124, 390)
+			ordinal    	0)
+		    (object InterMessView "" @77
+			location   	(15, 525)
+			label      	(object SegLabel @78
+			    Parent_View 	@77
+			    location   	(1365, 481)
+			    quidu      	"3AC768A8010F"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	453
+			    justify    	0
+			    label      	"hay eventos sin procesar?"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	1)
+			line_color 	3342489
+			client     	@61
+			supplier   	@67
+			Focus_Src  	@62
+			Focus_Entry 	@69
+			origin     	(1574, 525)
+			terminus   	(1156, 525)
+			ordinal    	1)
+		    (object InterMessView "" @79
+			location   	(15, 720)
+			label      	(object SegLabel @80
+			    Parent_View 	@79
+			    location   	(1364, 676)
+			    quidu      	"3AC768BB00AA"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	513
+			    justify    	0
+			    label      	"Buzón B entrega peticiones a B"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@67
+			supplier   	@61
+			Focus_Src  	@70
+			Focus_Entry 	@63
+			origin     	(1155, 720)
+			terminus   	(1574, 720)
+			ordinal    	2)
+		    (object SelfMessView "" @81
+			location   	(15, 885)
+			label      	(object SegLabel @82
+			    Parent_View 	@81
+			    location   	(1681, 841)
+			    quidu      	"3AC768CB00D3"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	328
+			    justify    	0
+			    label      	"B elabora respuesta"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@61
+			supplier   	@61
+			Focus_Src  	@64
+			Focus_Entry 	@65
+			origin     	(1606, 885)
+			terminus   	(1756, 885)
+			ordinal    	3)
+		    (object InterMessView "" @83
+			location   	(15, 1080)
+			label      	(object SegLabel @84
+			    Parent_View 	@83
+			    location   	(1155, 1036)
+			    quidu      	"3AC768D50097"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	380
+			    justify    	0
+			    label      	"B envía respuesta a A"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	1)
+			line_color 	3342489
+			client     	@61
+			supplier   	@71
+			Focus_Src  	@66
+			Focus_Entry 	@72
+			origin     	(1574, 1080)
+			terminus   	(736, 1080)
+			ordinal    	4)
+		    (object InterMessView "" @85
+			location   	(15, 1260)
+			label      	(object SegLabel @86
+			    Parent_View 	@85
+			    location   	(509, 1216)
+			    quidu      	"3AC76934003C"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	428
+			    justify    	0
+			    label      	"hay eventos sin procesar?"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@57
+			supplier   	@71
+			Focus_Src  	@59
+			Focus_Entry 	@73
+			origin     	(315, 1260)
+			terminus   	(704, 1260)
+			ordinal    	5)
+		    (object InterMessView "" @87
+			location   	(15, 1440)
+			label      	(object SegLabel @88
+			    Parent_View 	@87
+			    location   	(510, 1396)
+			    quidu      	"3AC769640078"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	505
+			    justify    	0
+			    label      	"Buzón A entrega respuesta a A"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	1)
+			line_color 	3342489
+			client     	@71
+			supplier   	@57
+			Focus_Src  	@74
+			Focus_Entry 	@60
+			origin     	(704, 1440)
+			terminus   	(316, 1440)
+			ordinal    	6)))
+	    (object InteractionDiagram "The mailbox mechanism buzón general"
+		mechanism_ref 	@4
+		quid       	"3AC769800050"
+		title      	"The mailbox mechanism buzón general"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list
+		    (object InterObjView "Agente A" @89
+			location   	(720, 225)
+			font       	(object Font
+			    underline  	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@89
+			    location   	(720, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"Agente A")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC769920398"
+			width      	300
+			height     	1695
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @90
+			    location   	(720, 375)
+			    line_color 	3342489
+			    InterObjView 	@89
+			    height     	225
+			    y_coord    	165
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @91
+			    location   	(720, 555)
+			    line_color 	3342489
+			    InterObjView 	@89
+			    height     	165
+			    y_coord    	105
+			    Nested     	TRUE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @92
+			    location   	(720, 1350)
+			    line_color 	3342489
+			    InterObjView 	@89
+			    height     	120
+			    y_coord    	60
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @93
+			    location   	(720, 1485)
+			    line_color 	3342489
+			    InterObjView 	@89
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE))
+		    (object InterObjView "Buzón" @94
+			location   	(225, 225)
+			font       	(object Font
+			    underline  	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@94
+			    location   	(225, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"Buzón")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC7699702B2"
+			width      	300
+			height     	1695
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @95
+			    location   	(225, 825)
+			    line_color 	3342489
+			    InterObjView 	@94
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @96
+			    location   	(225, 1155)
+			    line_color 	3342489
+			    InterObjView 	@94
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @97
+			    location   	(225, 1350)
+			    line_color 	3342489
+			    InterObjView 	@94
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @98
+			    location   	(225, 1485)
+			    line_color 	3342489
+			    InterObjView 	@94
+			    height     	120
+			    y_coord    	60
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @99
+			    location   	(225, 1710)
+			    line_color 	3342489
+			    InterObjView 	@94
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE))
+		    (object InterObjView "Agente B" @100
+			location   	(1095, 225)
+			font       	(object Font
+			    underline  	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@100
+			    location   	(1095, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"Agente B")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC769A1035C"
+			width      	300
+			height     	1695
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @101
+			    location   	(1095, 375)
+			    line_color 	3342489
+			    InterObjView 	@100
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @102
+			    location   	(1095, 1710)
+			    line_color 	3342489
+			    InterObjView 	@100
+			    height     	120
+			    y_coord    	60
+			    Nested     	FALSE))
+		    (object InterObjView "Agente C" @103
+			location   	(1410, 225)
+			font       	(object Font
+			    underline  	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@103
+			    location   	(1410, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"Agente C")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC769A603C0"
+			width      	300
+			height     	1695
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @104
+			    location   	(1410, 480)
+			    line_color 	3342489
+			    InterObjView 	@103
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @105
+			    location   	(1410, 1155)
+			    line_color 	3342489
+			    InterObjView 	@103
+			    height     	120
+			    y_coord    	60
+			    Nested     	FALSE))
+		    (object InterObjView "Agente D" @106
+			location   	(1725, 225)
+			font       	(object Font
+			    underline  	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@106
+			    location   	(1725, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"Agente D")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3AC769B100B4"
+			width      	300
+			height     	1695
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @107
+			    location   	(1725, 600)
+			    line_color 	3342489
+			    InterObjView 	@106
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @108
+			    location   	(1725, 825)
+			    line_color 	3342489
+			    InterObjView 	@106
+			    height     	120
+			    y_coord    	60
+			    Nested     	FALSE))
+		    (object InterMessView "" @109
+			location   	(15, 375)
+			label      	(object SegLabel @110
+			    Parent_View 	@109
+			    location   	(879, 332)
+			    quidu      	"3AC769C30213"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	170
+			    justify    	0
+			    label      	"Tarea 1"
+			    pctDist    	0.419226
+			    height     	44
+			    orientation 	0)
+			line_color 	3342489
+			client     	@89
+			supplier   	@100
+			Focus_Src  	@90
+			Focus_Entry 	@101
+			origin     	(735, 375)
+			terminus   	(1079, 375)
+			ordinal    	0)
+		    (object InterMessView "" @111
+			location   	(15, 480)
+			label      	(object SegLabel @112
+			    Parent_View 	@111
+			    location   	(899, 438)
+			    quidu      	"3AC769C802E5"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	170
+			    justify    	0
+			    label      	"Tarea 2"
+			    pctDist    	0.248957
+			    height     	43
+			    orientation 	0)
+			line_color 	3342489
+			client     	@89
+			supplier   	@103
+			Focus_Src  	@90
+			Focus_Entry 	@104
+			origin     	(735, 480)
+			terminus   	(1394, 480)
+			ordinal    	1)
+		    (object InterMessView "" @113
+			location   	(15, 600)
+			label      	(object SegLabel @114
+			    Parent_View 	@113
+			    location   	(910, 542)
+			    quidu      	"3AC769CB028B"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	135
+			    justify    	0
+			    label      	"Tarea 3"
+			    pctDist    	0.179884
+			    height     	59
+			    orientation 	0)
+			line_color 	3342489
+			client     	@89
+			supplier   	@106
+			Focus_Src  	@91
+			Focus_Entry 	@107
+			origin     	(735, 600)
+			terminus   	(1709, 600)
+			ordinal    	2)
+		    (object NoteView @115
+			location   	(525, 480)
+			label      	(object ItemLabel
+			    Parent_View 	@115
+			    location   	(387, 386)
+			    fill_color 	13434879
+			    nlines     	4
+			    max_width  	240
+			    label      	"Las 3 tareas lanzadas en paralelo")
+			line_color 	3342489
+			fill_color 	13434879
+			width      	300
+			height     	200)
+		    (object InterMessView "" @116
+			location   	(15, 825)
+			label      	(object SegLabel @117
+			    Parent_View 	@116
+			    location   	(917, 783)
+			    quidu      	"3AC76A2B0295"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	341
+			    justify    	0
+			    label      	"Resultados Tarea 3"
+			    pctDist    	0.539857
+			    height     	43
+			    orientation 	1)
+			line_color 	3342489
+			client     	@106
+			supplier   	@94
+			Focus_Src  	@108
+			Focus_Entry 	@95
+			origin     	(1709, 825)
+			terminus   	(241, 825)
+			ordinal    	3)
+		    (object InterMessView "" @118
+			location   	(15, 1155)
+			label      	(object SegLabel @119
+			    Parent_View 	@118
+			    location   	(880, 1098)
+			    quidu      	"3AC76A560155"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	340
+			    justify    	0
+			    label      	"Resultados Tarea 2"
+			    pctDist    	0.446254
+			    height     	58
+			    orientation 	1)
+			line_color 	3342489
+			client     	@103
+			supplier   	@94
+			Focus_Src  	@105
+			Focus_Entry 	@96
+			origin     	(1394, 1155)
+			terminus   	(241, 1155)
+			ordinal    	4)
+		    (object InterMessView "" @120
+			location   	(15, 1350)
+			label      	(object SegLabel @121
+			    Parent_View 	@120
+			    location   	(473, 1306)
+			    quidu      	"3AC76AB9021D"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	435
+			    justify    	0
+			    label      	"obtener resultado Tareas"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	1)
+			line_color 	3342489
+			client     	@89
+			supplier   	@94
+			Focus_Src  	@92
+			Focus_Entry 	@97
+			origin     	(704, 1350)
+			terminus   	(241, 1350)
+			ordinal    	5)
+		    (object InterMessView "" @122
+			location   	(15, 1485)
+			label      	(object SegLabel @123
+			    Parent_View 	@122
+			    location   	(472, 1441)
+			    quidu      	"3AC76AC8035C"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	455
+			    justify    	0
+			    label      	"entrega resultados Tareas"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@94
+			supplier   	@89
+			Focus_Src  	@98
+			Focus_Entry 	@93
+			origin     	(240, 1485)
+			terminus   	(704, 1485)
+			ordinal    	6)
+		    (object InterMessView "" @124
+			location   	(15, 1710)
+			label      	(object SegLabel @125
+			    Parent_View 	@124
+			    location   	(896, 1667)
+			    quidu      	"3AC76AF5023A"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	340
+			    justify    	0
+			    label      	"Resultados Tarea 1"
+			    pctDist    	0.219058
+			    height     	44
+			    orientation 	1)
+			line_color 	3342489
+			client     	@100
+			supplier   	@94
+			Focus_Src  	@102
+			Focus_Entry 	@99
+			origin     	(1079, 1710)
+			terminus   	(241, 1710)
+			ordinal    	7)
+		    (object NoteView @126
+			location   	(525, 1845)
+			label      	(object ItemLabel
+			    Parent_View 	@126
+			    location   	(380, 1744)
+			    fill_color 	13434879
+			    nlines     	4
+			    max_width  	255
+			    label      	"Los resultado de la Tarea 1 llegan fuera de plazo")
+			line_color 	3342489
+			fill_color 	13434879
+			width      	315
+			height     	215)))))
+    root_subsystem 	(object SubSystem "Component View"
+	quid       	"3AC765DA0231"
+	physical_models 	(list unit_reference_list)
+	physical_presentations 	(list unit_reference_list
+	    (object Module_Diagram "Main"
+		quid       	"3AC765E300F0"
+		title      	"Main"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list))))
+    process_structure 	(object Processes
+	quid       	"3AC765DA0232"
+	ProcsNDevs 	(list
+	    (object Process_Diagram "Deployment View"
+		quid       	"3AC765DA0234"
+		title      	"Deployment View"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list))))
+    properties 	(object Properties
+	attributes 	(list Attribute_Set
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"propertyId"
+		value      	"809135966")
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Project"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"CreateMissingDirectories"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"Editor"
+			value      	("EditorType" 100))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"IncludePath"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"StopOnError"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"EditorType"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"CORBA"
+				name       	"BuiltIn"
+				value      	100)
+			    (object Attribute
+				tool       	"CORBA"
+				name       	"WindowsShell"
+				value      	101)))))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Class"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"ArrayDimensions"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"ConstValue"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"ImplementationType"
+			value      	"")))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Module-Spec"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"AdditionalIncludes"
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"CmIdentification"
+			value      	(value Text "  %X% %Q% %Z% %W%"))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"CopyrightNotice"
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"InclusionProtectionSymbol"
+			value      	"AUTO GENERATE")))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Module-Body"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"AdditionalIncludes"
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"CmIdentification"
+			value      	(value Text "  %X% %Q% %Z% %W%"))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"CopyrightNotice"
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"InclusionProtectionSymbol"
+			value      	"AUTO GENERATE")))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Operation"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"Context"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"OperationIsOneWay"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Attribute"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"ArrayDimensions"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"CaseSpecifier"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"IsReadOnly"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"Order"
+			value      	"")))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Role"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"ArrayDimensions"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"CaseSpecifier"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"GenerateForwardReference"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"IsReadOnly"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"Order"
+			value      	"")
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"BoundedRoleType"
+			value      	("AssocTypeSet" 47))
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"AssocTypeSet"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"CORBA"
+				name       	"Array"
+				value      	24)
+			    (object Attribute
+				tool       	"CORBA"
+				name       	"Sequence"
+				value      	47)))))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"default__Uses"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"CORBA"
+			name       	"GenerateForwardReference"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"CORBA"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"DDL"
+		name       	"propertyId"
+		value      	"809135966")
+	    (object Attribute
+		tool       	"DDL"
+		name       	"default__Project"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"DDL"
+			name       	"Directory"
+			value      	"AUTO GENERATE")
+		    (object Attribute
+			tool       	"DDL"
+			name       	"DataBase"
+			value      	("DataBaseSet" 800))
+		    (object Attribute
+			tool       	"DDL"
+			name       	"DataBaseSet"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"DDL"
+				name       	"ANSI"
+				value      	800)
+			    (object Attribute
+				tool       	"DDL"
+				name       	"Oracle"
+				value      	801)
+			    (object Attribute
+				tool       	"DDL"
+				name       	"SQLServer"
+				value      	802)
+			    (object Attribute
+				tool       	"DDL"
+				name       	"Sybase"
+				value      	803)
+			    (object Attribute
+				tool       	"DDL"
+				name       	"Watcom"
+				value      	804)))
+		    (object Attribute
+			tool       	"DDL"
+			name       	"PrimaryKeyColumnName"
+			value      	"Id")
+		    (object Attribute
+			tool       	"DDL"
+			name       	"PrimaryKeyColumnType"
+			value      	"NUMBER(5)")
+		    (object Attribute
+			tool       	"DDL"
+			name       	"ViewName"
+			value      	"V_")
+		    (object Attribute
+			tool       	"DDL"
+			name       	"TableName"
+			value      	"T_")
+		    (object Attribute
+			tool       	"DDL"
+			name       	"InheritSuffix"
+			value      	"_V")
+		    (object Attribute
+			tool       	"DDL"
+			name       	"DropClause"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"DDL"
+			name       	"BaseViews"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"DDL"
+			name       	"DDLScriptFilename"
+			value      	"DDL1.SQL")))
+	    (object Attribute
+		tool       	"DDL"
+		name       	"default__Attribute"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"DDL"
+			name       	"ColumnType"
+			value      	"VARCHAR")
+		    (object Attribute
+			tool       	"DDL"
+			name       	"Length"
+			value      	"")
+		    (object Attribute
+			tool       	"DDL"
+			name       	"NullsOK"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"DDL"
+			name       	"PrimaryKey"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"DDL"
+			name       	"Unique"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"DDL"
+			name       	"CompositeUnique"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"DDL"
+			name       	"CheckConstraint"
+			value      	"")))
+	    (object Attribute
+		tool       	"DDL"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"Java"
+		name       	"propertyId"
+		value      	"809135966")
+	    (object Attribute
+		tool       	"Java"
+		name       	"default__Project"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"CreateMissingDirectories"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"StopOnError"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"UsePrefixes"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"AutoSync"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Editor"
+			value      	("EditorType" 100))
+		    (object Attribute
+			tool       	"Java"
+			name       	"VM"
+			value      	("VMType" 200))
+		    (object Attribute
+			tool       	"Java"
+			name       	"ClassPath"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"EditorType"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"BuiltIn"
+				value      	100)
+			    (object Attribute
+				tool       	"Java"
+				name       	"WindowsShell"
+				value      	101)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"VMType"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"Sun"
+				value      	200)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Microsoft"
+				value      	201)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"InstanceVariablePrefix"
+			value      	"m_")
+		    (object Attribute
+			tool       	"Java"
+			name       	"ClassVariablePrefix"
+			value      	"s_")
+		    (object Attribute
+			tool       	"Java"
+			name       	"DefaultAttributeDataType"
+			value      	"int")
+		    (object Attribute
+			tool       	"Java"
+			name       	"DefaultOperationReturnType"
+			value      	"void")
+		    (object Attribute
+			tool       	"Java"
+			name       	"NoClassCustomDlg"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"GlobalImports"
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"Java"
+			name       	"OpenBraceClassStyle"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"OpenBraceMethodStyle"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"UseTabs"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"UseSpaces"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"SpacingItems"
+			value      	3)
+		    (object Attribute
+			tool       	"Java"
+			name       	"RoseDefaultCommentStyle"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"AsteriskCommentStyle"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavaCommentStyle"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocAuthor"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocDeprecated"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocException"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocParam"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocReturn"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocSee"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocSerial"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocSerialdata"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocSerialfield"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocSince"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocVersion"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"JavadocLink"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"Java"
+		name       	"default__Class"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"Final"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Static"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateDefaultConstructor"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"ConstructorIs"
+			value      	("Ctor_Set" 62))
+		    (object Attribute
+			tool       	"Java"
+			name       	"Ctor_Set"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"public"
+				value      	62)
+			    (object Attribute
+				tool       	"Java"
+				name       	"protected"
+				value      	63)
+			    (object Attribute
+				tool       	"Java"
+				name       	"private"
+				value      	64)
+			    (object Attribute
+				tool       	"Java"
+				name       	"package"
+				value      	65)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateFinalizer"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateStaticInitializer"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateInstanceInitializer"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"Java"
+		name       	"default__Module-Spec"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"CmIdentification"
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"Java"
+			name       	"CopyrightNotice"
+			value      	(value Text ""))))
+	    (object Attribute
+		tool       	"Java"
+		name       	"default__Module-Body"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"CmIdentification"
+			value      	(value Text ""))
+		    (object Attribute
+			tool       	"Java"
+			name       	"CopyrightNotice"
+			value      	(value Text ""))))
+	    (object Attribute
+		tool       	"Java"
+		name       	"default__Operation"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"Abstract"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Static"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Final"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Native"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Synchronized"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"Java"
+		name       	"default__Attribute"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"Final"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Transient"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Volatile"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"PropertyType"
+			value      	("BeanProperty_Set" 71))
+		    (object Attribute
+			tool       	"Java"
+			name       	"BeanProperty_Set"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"Not A Property"
+				value      	71)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Simple"
+				value      	72)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Bound"
+				value      	73)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Constrained"
+				value      	74)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"IndividualChangeMgt"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Read/Write"
+			value      	("Read/Write_Set" 81))
+		    (object Attribute
+			tool       	"Java"
+			name       	"Read/Write_Set"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"Read & Write"
+				value      	81)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Read Only"
+				value      	82)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Write Only"
+				value      	83)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"GenerateFullyQualifiedTypes"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"Java"
+		name       	"default__Role"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Java"
+			name       	"ContainerClass"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"InitialValue"
+			value      	"")
+		    (object Attribute
+			tool       	"Java"
+			name       	"Final"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Transient"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Volatile"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"PropertyType"
+			value      	("BeanProperty_Set" 71))
+		    (object Attribute
+			tool       	"Java"
+			name       	"BeanProperty_Set"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"Not A Property"
+				value      	71)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Simple"
+				value      	72)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Bound"
+				value      	73)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Constrained"
+				value      	74)))
+		    (object Attribute
+			tool       	"Java"
+			name       	"IndividualChangeMgt"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Java"
+			name       	"Read/Write"
+			value      	("Read/Write_Set" 81))
+		    (object Attribute
+			tool       	"Java"
+			name       	"Read/Write_Set"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Java"
+				name       	"Read & Write"
+				value      	81)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Read Only"
+				value      	82)
+			    (object Attribute
+				tool       	"Java"
+				name       	"Write Only"
+				value      	83)))))
+	    (object Attribute
+		tool       	"Java"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"Oracle8"
+		name       	"propertyId"
+		value      	"360000002")
+	    (object Attribute
+		tool       	"Oracle8"
+		name       	"default__Project"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"DDLScriptFilename"
+			value      	"DDL1.SQL")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"DropClause"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"PrimaryKeyColumnName"
+			value      	"_ID")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"PrimaryKeyColumnType"
+			value      	"NUMBER(5,0)")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"SchemaNamePrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"SchemaNameSuffix"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"TableNamePrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"TableNameSuffix"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"TypeNamePrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"TypeNameSuffix"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"ViewNamePrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"ViewNameSuffix"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"VarrayNamePrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"VarrayNameSuffix"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"NestedTableNamePrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"NestedTableNameSuffix"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"ObjectTableNamePrefix"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"ObjectTableNameSuffix"
+			value      	"")))
+	    (object Attribute
+		tool       	"Oracle8"
+		name       	"default__Module-Spec"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"IsSchema"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"Oracle8"
+		name       	"default__Class"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"OID"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"WhereClause"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"CheckConstraint"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"CollectionTypeLength"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"CollectionTypePrecision"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"CollectionTypeScale"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"CollectionOfREFS"
+			value      	FALSE)))
+	    (object Attribute
+		tool       	"Oracle8"
+		name       	"default__Operation"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"MethodKind"
+			value      	("MethodKindSet" 1903))
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"OverloadID"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"OrderNumber"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"IsReadNoDataState"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"IsReadNoProcessState"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"IsWriteNoDataState"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"IsWriteNoProcessState"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"IsSelfish"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"TriggerType"
+			value      	("TriggerTypeSet" 1801))
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"TriggerEvent"
+			value      	("TriggerEventSet" 1601))
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"TriggerText"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"TriggerReferencingNames"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"TriggerForEach"
+			value      	("TriggerForEachSet" 1701))
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"TriggerWhenClause"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"MethodKindSet"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"MapMethod"
+				value      	1901)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"OrderMethod"
+				value      	1902)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"Function"
+				value      	1903)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"Procedure"
+				value      	1904)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"Operator"
+				value      	1905)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"Constructor"
+				value      	1906)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"Destructor"
+				value      	1907)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"Trigger"
+				value      	1908)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"Calculated"
+				value      	1909)))
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"TriggerTypeSet"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"AFTER"
+				value      	1801)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"BEFORE"
+				value      	1802)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"INSTEAD OF"
+				value      	1803)))
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"TriggerForEachSet"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"ROW"
+				value      	1701)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"STATEMENT"
+				value      	1702)))
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"TriggerEventSet"
+			value      	(list Attribute_Set
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"INSERT"
+				value      	1601)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"UPDATE"
+				value      	1602)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"DELETE"
+				value      	1603)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"INSERT OR UPDATE"
+				value      	1604)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"INSERT OR DELETE"
+				value      	1605)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"UPDATE OR DELETE"
+				value      	1606)
+			    (object Attribute
+				tool       	"Oracle8"
+				name       	"INSERT OR UPDATE OR DELETE"
+				value      	1607)))))
+	    (object Attribute
+		tool       	"Oracle8"
+		name       	"default__Role"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"OrderNumber"
+			value      	"")))
+	    (object Attribute
+		tool       	"Oracle8"
+		name       	"default__Attribute"
+		value      	(list Attribute_Set
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"OrderNumber"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"IsUnique"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"NullsAllowed"
+			value      	TRUE)
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"Length"
+			value      	"")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"Precision"
+			value      	"2")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"Scale"
+			value      	"6")
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"IsIndex"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"IsPrimaryKey"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"CompositeUnique"
+			value      	FALSE)
+		    (object Attribute
+			tool       	"Oracle8"
+			name       	"CheckConstraint"
+			value      	"")))
+	    (object Attribute
+		tool       	"Oracle8"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"Rose Model Integrator"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"Rose Web Publisher"
+		name       	"HiddenTool"
+		value      	FALSE)
+	    (object Attribute
+		tool       	"Version Control"
+		name       	"HiddenTool"
+		value      	FALSE))
+	quid       	"3AC765DA0233"))

@@ -1,0 +1,49 @@
+#Fichero de configuración del sistema BIBA
+#NOTA: las líneas que comienzan por # son comentarios y serán ignoradas
+#Los valores introducidos son de la forma propiedad=valor
+#Para que java lea correctamente los PATH de fichero locales hay que poner doble barra siempre
+
+#PROPIEDADES:
+#RUTA_HTML: ruta donde están los fichero html respecto del servidor web
+#RUTA_JSP: ruta donde están los fichero jsp respecto del servidor web
+#RUTA_PERFILES_USUARIO: ruta donde se almacenan los ficheros .dat que contienen la información de los usarios registrados en BIBA
+#RUTA_TABLA_BUSCADORES: ruta donde se almacena el fichero tablabuscadores.dat que contiene la informacion de los buscadores usados en BIBA
+#RUTA_ESTADISTICAS: ruta hasta el fichero donde se almacenen las estadísticas de uso del buscador
+#RUTA_FILTROS: ruta donde se encuentran los ficheros para hacer el parsing mediante LIA
+#FICHERO_SALIDA_SERVLET_XXXXX: fichero local donde se vuelca la salida estandar del servlet XXXXX
+#FICHERO_ERROR_SERVLET_XXXXX: fichero local donde se vuelca la salida de error del servlet XXXXX
+#DEBUG: Indica si se activan las trazas del código,posibles valores: si, cualquier otro se toma como no
+#FIJAR_PROXY:Indica si se trabaja contra un proxy, en caso de que el valor sea "si" se antenderá el valor de las
+# dos siguientes etiquetas:
+#MODO_FILTRAJE: forma en la que se va a hacer el filtraje en la búsqueda registrada, admite los valores {simple,tabla,orden}
+
+
+
+RUTA_HTML=/
+RUTA_JSP =/jsp/
+
+RUTA_PERFILES_USUARIO=C:\\Java\\Apache13\\Tomcat32\\webapps\\biba\\perfilesUsuario\\
+
+RUTA_TABLA_BUSCADORES=C:\\Java\\Apache13\\Tomcat32\\webapps\\biba\\datos\\
+
+RUTA_ESTADISTICAS=C:\\Java\\Apache13\\Tomcat32\\webapps\\biba\\datos\\
+
+RUTA_FILTROS=C:\\Java\\Apache13\\Tomcat32\\webapps\\biba\\WEB-INF\\classes\\biba\\agentes\\
+
+FICHERO_SALIDA_SERVLET_INICIO = C:\\Java\\Apache13\\Tomcat32\\webapps\\biba\\WEB-INF\\classes\\outServletInicio.txt
+FICHERO_ERROR_SERVLET_INICIO = C:\\Java\\Apache13\\Tomcat32\\webapps\\biba\\WEB-INF\\classes\\errServletInicio.txt
+
+FICHERO_SALIDA_SERVLET_BUSQUEDA_RAPIDA = C:\\Java\\Apache13\\Tomcat32\\webapps\\biba\\WEB-INF\\classes\\outServletBusquedaRapida.txt
+FICHERO_ERROR_SERVLET_BUSQUEDA_RAPIDA = C:\\Java\\Apache13\\Tomcat32\\webapps\\biba\\WEB-INF\\classes\\errServletBusquedaRapida.txt
+
+FICHERO_ERROR_AGENTE_USUARIO=C:\\Java\\Apache13\\Tomcat32\\webapps\\biba\\WEB-INF\\classes\\errAgenteUsuario.txt
+FICHERO_SALIDA_AGENTE_USUARIO=C:\\Java\\Apache13\\Tomcat32\\webapps\\biba\\WEB-INF\\classes\\outAgenteUsuario.txt
+
+
+DEBUG=si
+
+FIJAR_PROXY=no
+PROXY_HOST=nube
+PROXY_PORT=8080
+
+MODO_FILTRAJE = orden

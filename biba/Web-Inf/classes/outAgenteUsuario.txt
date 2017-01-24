@@ -1,0 +1,364 @@
+Fecha y hora:Mon Jul 02 14:50:32 CEST 2001
+Sesion!=null
+Recuperamos la  InfoUsuario de d
+biba.persistencia.AccesoBD.existe :C:\Java\Apache13\Tomcat32\webapps\biba\perfilesUsuario\d.dat
+recuperamos la plantilla general
+Vector temasActivos.size=1 general
+biba.visualizador.abrirSesion,url=/jsp/abrirSesion.jsp
+Sesion!=null
+Recuperamos InfoUsuario
+biba.persistencia.AccesoBD.existe :C:\Java\Apache13\Tomcat32\webapps\biba\perfilesUsuario\d.dat
+InfoUsuario(d, d
+valor pestaniaAntigua=general
+LA PLANTILLA QUE RECUPERAMOS DE PERSISTENCIA del tema:general
+Minutos primera busqueda: 831770
+Diferencia fechas: 0
+minutosFechaActual: 831770
+DiferenciaFechas: 1
+Densidad: 526000.0
+Estoy en consulta Google !! Cadena=bso blow Añadido=
+Estoy en consulta Excite !! Cadena=bso blow Añadido=
+antes de adapta Excite
+Convierto de:bso blow los: : a:+AND+
+Convierto de: los:+: a:+OR+
+tras adapta Excite
+antes de adapta Google
+La cad de busqueda es bso blow
+Convierto de:bso blow los: : a:+
+La consulta fo 1 :bso+blow
+Convierto de: los:+: a:+OR+
+anyade :
+La búsqueda es : http://www.google.com/search?q=bso+blow
+tras adapta Google
+Estoy en consulta Yahoo !! Cadena=bso blow Añadido=
+antes de adapta Yahoo
+Convierto de:bso blow los: : a:+
+tras adapta Yahoo
+Estoy en consulta Lycos !! Cadena=bso blow Añadido=
+antes de adapta Lycos
+Convierto de:bso blow los: : a:+AND+
+Convierto de: los:+: a:+OR+
+tras adapta Lycos
+tras construir url Excite
+tras construir url Google
+tras construir url Yahoo
+tras construir url Lycos
+tras construir conex Excite
+tras construir conex Google
+tras construir conex Yahoo
+tras construir conex Lycos
+tras construir datos Lycos
+tras construir datos Excite
+tras construir datos Google
+Estado 1  Ejecutando token: table y accion 2 con dato $$
+Estado 2  Ejecutando token: table y accion 3 con dato $$
+Estado 3  Ejecutando token: b y accion 4 con dato $$
+Estado 4  Ejecutando token: b y accion 5 con dato $$
+0
+tras filtrar datos Google
+A punto de terminar hebra de Recolector
+Ha finalizado una búsqueda
+tras construir datos Yahoo
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/1/*http://www.berkeleysymphony.org/encyclopedia/bruckner.html"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.berkeleysymphony.org/encyclopedia/bruckner.html&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/2/*http://www.yeodoug.com/bsoserpent.html"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.yeodoug.com/bsoserpent.html&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/3/*http://u2fuegoirlandes.iespana.es/u2fuegoirlandes/secciones/indice/indice.html"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://u2fuegoirlandes.iespana.es/u2fuegoirlandes/secciones/indice/indice.html&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/4/*http://www.jeremywest.co.uk/cmi_content/douglas_yeo.html"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.jeremywest.co.uk/cmi_content/douglas_yeo.html&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/5/*http://www.parc.xerox.com/csl/members/mkersten/collections/humour/computerScienceAcronyms.txt"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.parc.xerox.com/csl/members/mkersten/collections/humour/computerScienceAcronyms.txt&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/6/*http://www.citypaper.com/2000-02-02/short.html"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.citypaper.com/2000-02-02/short.html&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/7/*http://www.brass-world.com/yeo2.htm"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.brass-world.com/yeo2.htm&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/8/*http://lal.cs.byu.edu/people/larson/fun/assembly.instr"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://lal.cs.byu.edu/people/larson/fun/assembly.instr&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/9/*http://www.rsmi.u-net.com/quotations.htm"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.rsmi.u-net.com/quotations.htm&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/10/*http://www.wm.edu/alumni/hc/hcpage4.html"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.wm.edu/alumni/hc/hcpage4.html&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/11/*http://www.creighton.edu/CampusRecreation/IM/i021901b.htm"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.creighton.edu/CampusRecreation/IM/i021901b.htm&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/12/*http://www.geocities.com/SunsetStrip/Balcony/5599/BSO.htm"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.geocities.com/SunsetStrip/Balcony/5599/BSO.htm&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/13/*http://computerhumor.glowport.com/com035.html"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://computerhumor.glowport.com/com035.html&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/14/*http://www.tessier.com/ThePlan/opcodes.html"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.tessier.com/ThePlan/opcodes.html&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/15/*http://www.monette.net/online/summer99/summer99_db.html"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.monette.net/online/summer99/summer99_db.html&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/16/*http://members.es.tripod.de/Skywalker6029/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://members.es.tripod.de/Skywalker6029/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/17/*http://teleline.terra.es/personal/edujies/collecti.htm"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://teleline.terra.es/personal/edujies/collecti.htm&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/18/*http://www.iespana.es/masmejores/listas/balantain_madrid_archivos/sheet001.htm"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.iespana.es/masmejores/listas/balantain_madrid_archivos/sheet001.htm&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/19/*http://alumni.dee.uc.pt/~pipe/humor/english/opcodes.htm"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://alumni.dee.uc.pt/~pipe/humor/english/opcodes.htm&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/bso+blow/20/*http://home.t-online.de/home/joerg.funke/haupts.htm"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://home.t-online.de/home/joerg.funke/haupts.htm&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+316
+tras filtrar datos Yahoo
+A punto de terminar hebra de Recolector
+Ha finalizado una búsqueda
+Estado 1  Ejecutando token: br y accion 2 con dato $$
+Estado 2  Ejecutando token: table y accion 3 con dato $$
+Estado 3  Ejecutando token: table y accion 4 con dato $$
+Estado 4  Ejecutando token: table y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $Top 20 of about 155 found in $
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Summer 1999 Newsletter - Dave Bamonte$
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ NEWS Archived $
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $A Musical Serpent Joins The $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $This article, by Andrew Pincus, is about myplaying the serpent, a 400 year old instrument that was invented toaccompany chant in the Catholic church. A photo of my holding four serpentsaccompan...$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $A Musical Serpent Joins The $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $This article, by Andrew Pincus, is about myplaying the serpent, a 400 year old instrument that was invented toaccompany chant in the Catholic church. A photo of my holding four serpentsaccompan...$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Le Concertographe : performance review$
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $, you really shouldn't go, it only goes to show...that you will be m...$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Untitled$
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $&nbsp;$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: b y accion 6 con dato $$
+20
+tras filtrar datos Excite
+A punto de terminar hebra de Recolector
+Ha finalizado una búsqueda
+Estado 1  Ejecutando token: texto y accion 2 con dato $			20 de  444 resultados			$
+Estado 2  Ejecutando token: texto y accion 3 con dato $																																		This article, by Andrew Pincus, is about Douglas Yeoplaying the serpent, a 400 year old instrument that was invented toaccompany chant in the Catholic church.  A photo of him holding four serpentsaccompanies the article, which originally appeared in $
+Estado 3  Ejecutando token: texto y accion 4 con dato $Com4 Underground And Import Music.$
+Estado 4  Ejecutando token: li y accion 5 con dato $$
+Estado 5  Ejecutando token: href y accion 6 con dato $"http://www.bouldergames.com/pricelist.html"$
+Estado 6  Ejecutando token: /a y accion 7 con dato $$
+4
+tras filtrar datos Lycos
+A punto de terminar hebra de Recolector
+Ha finalizado una búsqueda
+Hemos terminado con las búsquedas
+URL:http://www.berkeleysymphony.org/encyclopedia/bruckner.html&nbsp;&nbsp;
+TITULO:BSO Music Encyclopedia: Bruckner
+RESUMEN:  ... near Linz, Austria, 1824; d. Vienna, 1896) BSO Performance: April 3, 2001. ... but hecould do little to cushion the blow. Bruckner was used to adverse reception of ... 
+QUIEN: Yahoo
+
+URL:http://www.yeodoug.com/bsoserpent.html&nbsp;&nbsp;
+TITULO:A Musical Serpent Joins The BSO
+RESUMEN:  ... It happened in 1994, when he learned the BSO was going to perform Berlioz' recentlydiscovered Messe ... I didn't even blow a note into it,&quot; he recalls. &quot;I just ... 
+QUIEN: Yahoo
+
+URL:http://u2fuegoirlandes.iespana.es/u2fuegoirlandes/secciones/indice/indice.html&nbsp;&nbsp;
+TITULO:Índice Alfabético de Temas
+RESUMEN:  ... Billy Boola: In the Name of the Father (BSO). Blow YourHouse Down: Salome: The Axtung Beibi Outtakes (Álbum). ... 
+QUIEN: Yahoo
+
+URL:http://www.jeremywest.co.uk/cmi_content/douglas_yeo.html&nbsp;&nbsp;
+TITULO:CHRISTOPHER MONK MUSICAL INSTRUMENTS - cornetti - lizards - ... 
+RESUMEN:  ... kick. It happened in 1994, when he learned the BSO was going to perform Berlioz'recently discovered Messe ... I didn't even blow a note into it, I just bought it ... 
+QUIEN: Yahoo
+
+URL:http://www.parc.xerox.com/csl/members/mkersten/collections/humour/computerScienceAcronyms.txt&nbsp;&nbsp;
+TITULO:http://www.parc.xerox.com/csl/members/mkersten/collections/humour/computerScienceAcronyms.txt
+RESUMEN:  ... EQuipment BFM: Branch on Full Moon BFP: Blow Front Panel BGL: Branch and Goto Lunch ... onProgram Bug BPP: Branch Pretty Please BSO: Branch Sort Of BW: Branch on ... 
+QUIEN: Yahoo
+
+URL:http://www.citypaper.com/2000-02-02/short.html&nbsp;&nbsp;
+TITULO:Baltimore City Paper: (February 2 - February 8, 2000)
+RESUMEN:  ... Microbomb and Click blow up at the Vault. Conscious-reggae star Anthony B. liveliesup the Recher with Jah Works opening. Daniel Hege conducts the BSO at the ... 
+QUIEN: Yahoo
+
+URL:http://www.brass-world.com/yeo2.htm&nbsp;&nbsp;
+TITULO:BrassWorld International
+RESUMEN:  ... It happened in 1994, when I learned the BSO was going to perform Berlioz' recentlydiscovered ... the Boston area. I didn't even blow a note into it. I just bought ... 
+QUIEN: Yahoo
+
+URL:http://lal.cs.byu.edu/people/larson/fun/assembly.instr&nbsp;&nbsp;
+TITULO:http://lal.cs.byu.edu/people/larson/fun/assembly.instr
+RESUMEN:  ... EQuipment BFM Branch on Full Moon BFP Blow Front Panel BGL Branch and Goto Lunch ... onProgram Bug BPP Branch Pretty Please BSO Branch Sort Of BW Branch on Whim ... 
+QUIEN: Yahoo
+
+URL:http://www.rsmi.u-net.com/quotations.htm&nbsp;&nbsp;
+TITULO:Smith-Watkins Musical Instruments
+RESUMEN:  ... certain registers. The horn is so even of blow and tone quality that it is a ... of &quot;TheSoldiers Tale&quot; by Stravinsky with the BSO and found it to be an excellent ... 
+QUIEN: Yahoo
+
+URL:http://www.wm.edu/alumni/hc/hcpage4.html&nbsp;&nbsp;
+TITULO:Homecoming 1999 - Rock Around the Clock!
+RESUMEN:  ... invited to attend. Saturday, post game. Blow Memorial Hall, Admission Office Lobby.No registration required. BSO/Multicultural Affairs Step Show: Saturday, 8 ... 
+QUIEN: Yahoo
+
+URL:http://www.creighton.edu/CampusRecreation/IM/i021901b.htm&nbsp;&nbsp;
+TITULO:Creighton University Intramural Sports: Iggy's Outlook
+RESUMEN:  ... playoffs only to blow a big lead in that one and get knocked off in double overtime,and The Lost Boys, a squad that was just a one-point loss to BSO away from ... 
+QUIEN: Yahoo
+
+URL:http://www.geocities.com/SunsetStrip/Balcony/5599/BSO.htm&nbsp;&nbsp;
+TITULO:THE BRIAN SETZER ORCHESTRA
+RESUMEN:  ... go. jumpin fast or rockin slow. I will see ya whenthe band gone blow. Now hold it, don't move it. Now ... 
+QUIEN: Yahoo
+
+URL:http://computerhumor.glowport.com/com035.html&nbsp;&nbsp;
+TITULO:All Computer Humor: #1 for Computer Humor on the Web!
+RESUMEN:  ... Immediately BSM Branch and Scramble Memory BSO Branch on Sleepy Operator BSP BackSpace ... DayBTD Byte The Dust BTI Blow Trumpet Immediately BTJ Branch and Turn ... 
+QUIEN: Yahoo
+
+URL:http://www.tessier.com/ThePlan/opcodes.html&nbsp;&nbsp;
+TITULO:T/A - OpCodes That Should Have Been
+RESUMEN:  ... Immediately BSM Branch and Scramble Memory BSO Branch on Sleepy Operator BSP ... WednesdayBU Branch Unexpectedly BUTI Blow Up Terminal Immediately BVS Branch and ... 
+QUIEN: Yahoo
+
+URL:http://www.monette.net/online/summer99/summer99_db.html&nbsp;&nbsp;
+TITULO:Summer 1999 Newsletter - Dave Bamonte
+RESUMEN:  ... of the solos blowing in the BSO trumpet section, with Wynton playing most of ... absolutelyfantastic to hear Seneca Black blow double C's with consistency right ... 
+QUIEN: Yahoo
+
+URL:http://members.es.tripod.de/Skywalker6029/&nbsp;&nbsp;
+TITULO:Txemanu Soft
+RESUMEN:  ... on the wall ACDC - Who made who ACDC - Blow up your video ACDC - The razors edge ... BryanAdams - On a day like today BSO - Bar coyote BSO - Star wars Episodio I ... 
+QUIEN: Yahoo
+
+URL:http://teleline.terra.es/personal/edujies/collecti.htm&nbsp;&nbsp;
+TITULO:COLLECTION
+RESUMEN:  ... BLOW UP YOUR VIDEO 1.988, Atlantic. THE RAZORS EDGE 1.990, Atco. LIVE, 1.992,Atco. LIVE -SPECIAL COLLECTOR´S EDITION 2 CD 1.992, Atco. LAST ACTION HERO (BSO ... 
+QUIEN: Yahoo
+
+URL:http://www.iespana.es/masmejores/listas/balantain_madrid_archivos/sheet001.htm&nbsp;&nbsp;
+TITULO:http://www.iespana.es/masmejores/listas/balantain_madrid_archivos/sheet001.htm
+RESUMEN:  ... On The Wall, (18), AC/DC, Who Made Who, (18), AC/DC, Blow Up Your Video, ... Boobies,cda, Blues, Clasicos del Blues, (43)    9102000, Blues Brothers, BSO Blues Brothers2000, ... 
+QUIEN: Yahoo
+
+URL:http://alumni.dee.uc.pt/~pipe/humor/english/opcodes.htm&nbsp;&nbsp;
+TITULO:Op Codes
+RESUMEN:  ... BSM, Branch and Scramble Memory. BSO, Branch on Sleepy Operator. BSP, BackSpace Punch. ... Timeof Day. BTD, Byte The Dust. BTI, Blow Trumpet Immediately. BTJ, Branch and Turn ... 
+QUIEN: Yahoo
+
+URL:http://home.t-online.de/home/joerg.funke/haupts.htm&nbsp;&nbsp;
+TITULO:Rockabilly 's Homepage
+RESUMEN:  ... Infos zum BSO erhaltet Ihr über die BSO-News- Letter der www.briansetzer.de Seite ... nRoll Lounge - Abend in Bonn im Blow up , Rathausgasse 10 von 22 - 5 Uhr ... 
+QUIEN: Yahoo
+
+URL:NEWS Archived
+TITULO:Summer 1999 Newsletter - Dave Bamonte
+RESUMEN: http://members.tripod.com/~johnny_kool/tommy_story_6.html
+QUIEN: Excite
+
+URL:This article, by Andrew Pincus, is about myplaying the serpent, a 400 year old instrument that was invented toaccompany chant in the Catholic church. A photo of my holding four serpentsaccompan...
+TITULO:A Musical Serpent Joins The 
+RESUMEN: http://www.yeodoug.com/bsoserpent.html
+QUIEN: Excite
+
+URL:This article, by Andrew Pincus, is about myplaying the serpent, a 400 year old instrument that was invented toaccompany chant in the Catholic church. A photo of my holding four serpentsaccompan...
+TITULO:A Musical Serpent Joins The 
+RESUMEN: http://yeodoug.com/bsoserpent.html
+QUIEN: Excite
+
+URL:, you really shouldn't go, it only goes to show...that you will be m...
+TITULO:Le Concertographe : performance review
+RESUMEN: http://www.geocities.com/SouthBeach/Sands/2523/index.htm
+QUIEN: Excite
+
+URL:&nbsp;
+TITULO:Untitled
+RESUMEN: http://www.geocities.com/SouthBeach/Sands/2523/index.htm
+QUIEN: Excite
+
+Ha finalizado un filtrador
+Hemos terminado con el filtraje
+Actualizo búsquedas en totales
+Actualizo búsquedas en general

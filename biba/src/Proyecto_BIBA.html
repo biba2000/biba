@@ -1,0 +1,135 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<TITLE>JBuilder Project BuscadorBasadoEnAgentes.jpr</TITLE>
+</HEAD>
+<BODY>
+<H1>Notas BIBA</H1>
+<HR>
+<FONT SIZE=+1>
+<STRONG>Project: </STRONG>Buscador Basado en Agentes ( BIBA )<BR>
+<STRONG>Author: </STRONG>(Grupo de SI)<BR>
+<STRONG>Company: </STRONG><BR>
+<STRONG>Description:  </STRONG><BR>
+Ver las descripciones del documento de requisitos BIBA.
+Proyecto oficial.
+
+Prototipo 1
+<HR>
+<STRONG>Notas </STRONG><BR>
+<UL>
+<LI>La búsqueda rápida tarda unos 25s en pedir los datos + tiempo de respuesta de los buscadores
+</UL>
+<HR>
+<STRONG>Things to do... </STRONG><BR>
+</FONT>
+<UL>
+<!-- Edit this section to keep track of your to do items -->
+<LI>|_x_| Comprender el func. del LIA
+<LI>|_x_| Integrar un motor de búsqueda para GOOGLE
+<LI>|_x_| Integrar un motor de búsqueda para EXCITE
+<LI>|_x_| Corregir los motores para permitir cons múltiples (cambiar espacios por +)
+<LI>|___| Revisar y robustecer los autómatas, prever el caso de 0 hits en todos
+<LI>|___| Incorporar gráficos de los autómatas para comprensión (word/---->rose)
+<LI>|___| Añadir matraca teórica de TALF para los autómatas
+<LI>|_x_| Comprobar que las búsquedas se están formateando correctamente antes de ser pedidas al buscador
+<LI>|_x_| Ver si son innecesarios los primeros 4 estados del Google, dejando primero numHits --> SON NECESARIOS
+<LI>|___| Corregir el filtro de google para parsear el caso en el que haya palabras comunes, usar esNumHits para comprobar que el numHits es el bueno (consulta:la+casa+de+la+pradera
+<HR>
+<LI>|___| Añadir opción DEBUG en las clases necesarias -> eliminar los println()
+<LI>|_x_| Cambiar los nombres a las clases de LIA y estructurarlas de una Vez
+<LI>|_x_| Cambiar los nombres a las clases AgenteRecolector
+<LI>|_x_| Cambiar los nombres a las clases AgenteFiltrador
+<LI>|_x_| Probar los cambios
+<LI>|___| Robustecer los autómatas para los casos raros:
+<LI>|___|            0 hits
+<LI>|___|            palabras que se eliminaron en la búsqueda
+<LI>|___| Play-Testing de los autómatas
+<LI>|___| Crear diagramas de los autómatas y documentarlos
+<LI>|___| documentar la inclusión de un nuevo agente :
+<LI>|___|            Recolector
+<LI>|___|            Filtrador
+<LI>|___| Crear las clases SuperAgente ( dejan un parámetro en el Servlet Context ? buzones )
+<LI>|___| Timeouts y sincronización
+<LI>|_x_| Corregir de una vez los vectores que devuelven los recolectores
+<LI>|___| Eliminar otros proyectos/basura del directorio.
+<LI>|___| Cambiar el paso de parámetros al filtrador (conseguir pasar un vector de vectores)
+<LI>|___| Implementar las estrategias de :
+<LI>|___|             Filtrado Simple
+<LI>|___|             Selección de recolectores
+<LI>|___| Meter try's al acceder a todos los vectores para no producir excepciones feas
+<LI>|___| Crear una jerarquía de hebras bien hecha y manejarla
+<LI>|___| Crear un jar para lo del lia
+<LI>|___| Verificar el error que sale en "Agente de Usuario.txt" posiblemente captura mal el número en numHits del Excite
+<LI>|___| Corregir los --deprecated--
+<LI>|___| Problemas con el excite, vectores null ...
+<HR>
+<LI> COSAS COMPLETADAS
+<LI>..
+<LI>|_x_| 1.2 Hotlinks
+<LI>|_x_| 2.1 Creacion de pestañas con caracteristicas particulares:
+<LI>|_x_| 2.2    - Guardar/recuperar info.
+<LI>|_x_| No recuerda el campo 'sitio web' en plantilla generales ---> lo que pasa es que no lo desactiva correctqamente
+<LI>|_x_| Estructura que guarda los hotlinks:
+<LI>|_x_|  - funcion añadir (gestiona introducir un nuevo hotlink,
+<LI>         viendo si ya esta, si cabe, si no cual kitar ...(cola)
+<LI>|_x_| Marcar temas como imprescindible, presentarlo y recordarlo!
+<LI>       (como d momento no eliminamos pestañas, solo presentarlo)
+<LI>|_x_| IMP!!! los TRY & CATCH en TODOS LOS VECTORS (para controlar fallos de null (error 500))
+<LI>|_x_| Es posible que la comparación de nuevos hl con los anteriores de siempre negativa (i.e. siempre añadamos el hl, corriendo el riesgo de duplicarlos) ver biba.persistencia.Tema.actualiza_hotlinks
+<LI>|_x_| Tratar los cambios de pestaña (guardar en infoUsuario el temaActual nuevo para uso en hotlinks)
+<LI>|_x_| Guardar la info. de las pestañas generales en cada buskeda
+<LI>|_x_| Guardar la info. de las pestañas particulares en cada buskeda
+<LI>|_x_| - hacerlo entero.
+<LI>|_x_| - Presentar 10 mejores
+<LI>|_x_| - definir una nueva estructura para la cadena de buskeda:
+<LI>        hace falta mas info. k solo la cadena -> Posibilidad: Pasar todo el objeto infousuario
+<LI>|_x_| Comprobar las conectivas AND en excite
+<LI>|_x_| Cambiar el campo "suministrado por" de Tipo_Info por un vector de Strings y mostrarlo en los resultados
+<HR>
+<LI> FALTA
+<LI>..
+<LI>|___| *********** docucumentacion **********
+<LI>|___|  - actualizar doc. requisitos )completito y exhaustivo)
+<LI>|___|  - mas doc. sobre Creacion de nuevos agentes (d filtraje sobre todo)
+<LI>|___|  - actualizar estructura rose
+<LI>|___|  - hacer diags. de los automatas del lia
+<LI>|_J_| 1.1 Mas bonito (Quitar tanto espacio en blanco)
+<LI>|_X_| 1.3 Mensaje recordatorio de registrarse en busqueda rapida
+<LI>|___| 1.4 Boton logout (terminar sesion sessio.invalidate()??)
+<LI>|_D_| 2.3    - Politica de AÑADIDO (solo esto de momento) de pestañas
+<LI>|___| Compropbar el null en el resultado de la búsqueda
+<LI>|___| Fallo del autómata del excite
+<LI>|___| Al dar de alta a un nuevo usuario se muestra por error la última búsqueda del user anterior
+<LI>|___| - (posibilidad de presentar varias: 1-10 de N, 11-20 de N ...)
+<LI>|___| Preguntar la información que delimita el tema y actualizar con la plantilla la focalización de la búsqueda en los recolectores ...
+<LI>|___| Revisar y robustecer los autómatas, prever el caso de 0 hits en todos
+<LI>|___| Incorporar gráficos de los autómatas para comprensión (word/---->rose)
+<LI>|___| Corregir el filtro de google para parsear el caso en el que haya palabras comunes, usar esNumHits para comprobar que el numHits es el bueno (consulta:la+casa+de+la+pradera
+<LI>|___| documentar la inclusión de un nuevo agente : (Recolector y Filtrador)
+<LI>|___| Timeouts y sincronización
+<LI>|___| Crear una jerarquía de hebras bien hecha y manejarla
+<LI>|___| Crear un jar para lo del lia
+<LI>|___| Verificar el error que sale en "Agente de Usuario.txt" posiblemente captura mal el número en numHits del Excite
+<LI>|___| Corregir los --deprecated--
+<LI>|_x_| Cambiar los checkbox por radiobuttons en las características generales
+<LI>|_x_| Poner los hotlinks como una acción más por el post del agente usuario. Eliminar servlethotlinks. abrir como hasta ahora por un jsp...
+<LI>|___| A veces peta porque tarda demasiado en compilar, deberíamos tratar de aumentar el tiempo que está activo el session, para que caduque lo menos posible.
+<LI>|___| IMPORTANTE: la clase agentefiltrador está parcheada hasta que se corrija el autómata del excite para permitir borrar las entradas erróneas que produce éste al no encontrar nada en la búsqueda o al encontrar palabras raras
+<LI>|___| Hay que actualizar la busqueda rápida para que use hebras (como el sau)
+<LI>|___| Unificar resultadosBusqueda... para que haya sólo 1 jsp
+<LI>|___| Unificar funciones de los superagentes
+<LI>|___| Robustecer el mostrado de resultados para detectar nulls
+<LI>|___| Contemplar la posibilidad de crear una clase agente que encapsule a TODOS los que usamos (por encima de AgenteFiltrador y AgenteRecolector
+<LI>|___| ERROR : al comparar con el nombre del buscador para actualizar las estadísticas (agenteEstadisticas y tablabuscadores)
+<HR>
+<HR>
+<HR>
+<LI> FINE TUNNING
+<LI>..
+<LI>|___| Incluir imágenes de buscadores
+<LI>|___| Incluir una función que preprocese el query y elimine los caracteres no alfanuméricos
+<LI>|___| Revisar autómata de google con búsquedas en las que hay algún checkbox marcado
+</UL>
+</BODY>
+</HTML>

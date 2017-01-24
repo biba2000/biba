@@ -1,0 +1,125 @@
+estado 0
+  num_hits > 1, captura_hits;
+  any>0;
+estado 1
+  li>2;
+  any>1;
+estado 2
+  href>3;
+  any>2;
+estado 3
+  texto>3,concatena_titulo;
+  small>4;
+  any>3;
+estado 4
+  texto>4,concatena_comentario;
+  b>4;
+  /b>4;
+  br>4;
+  font>5;
+  any>5;
+estado 5
+  texto>6,captura_href;
+  any>5; 
+estado 6
+  p>1,genera_dato,reset_titulo,reset_comentario;
+  any>6;
+FIN
+
+
+ESTE NO PILLA EL HREF
+estado 0
+  num_hits > 1, captura_hits;
+  any>0;
+estado 1
+  li>2;
+  any>1;
+estado 2
+  href>3;
+  a>3;
+  any>2;
+estado 3
+  texto>3,concatena_titulo;
+  small>4;
+  any>3;
+estado 4
+  texto>4,concatena_comentario;
+  font>5;
+  any>4;
+estado 5
+  href>5,captura_href;
+  texto>5,captura_href;
+  p>1,genera_dato,reset_titulo,reset_comentario;
+  any>5; 
+ 
+FIN
+
+estado 0
+  num_hits > 1, captura_hits;
+  any>0;
+estado 1
+  li>2;
+  any>1;
+estado 2
+  a>3;
+  any>2;
+estado 3
+  texto>3,concatena_titulo;
+  small>4;
+  any>3;
+estado 4
+  texto>4,concatena_comentario;
+  font>5;
+  any>4;
+estado 5
+  texto>5,captura_href;
+  p>1,genera_dato,reset_titulo,reset_comentario;
+  any>5; 
+ 
+FIN
+
+ESTE FUNCIONA DE PUTA MADRE
+estado 0
+  num_hits > 1, captura_hits;
+  any>0;
+estado 1
+  li>2;
+  any>1;
+estado 2
+  href>3;
+  any>2;
+estado 3
+  texto>3,concatena_titulo;
+  small>4;
+  any>3;
+estado 4
+  texto>4,concatena_comentario;
+  any>5;
+estado 5
+  texto>5,captura_href;
+  p>1,genera_dato,reset_titulo,reset_comentario;
+  any>4; 
+ 
+FIN
+
+
+
+
+estado 0
+  num_hits > 1, captura_hits;
+  any>0;
+estado 1
+  li>2;
+  any>1;
+estado 2
+  href>3,captura_href;
+  any>1;
+estado 3
+  texto>3,concatena_titulo;
+  /a>4;
+  any>3;
+estado 4
+  texto>4,concatena_comentario;
+  p>1,genera_dato,reset_titulo,reset_comentario;
+  any>4;
+FIN   

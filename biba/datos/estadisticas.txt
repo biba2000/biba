@@ -1,0 +1,33 @@
+ESTADISTICAS:
+-------------
+
+
+*totales
+ Numero de Busquedas  Numero de Clicks  Numero de Clicks(Google)  Numero de Clicks (Yahoo)  Numero de Clicks(Excite) 
+ -------------------  ----------------  ------------------------  ------------------------  ------------------------ 
+          193                 43                    6                          11                          9             
+
+*general
+ Numero de Busquedas  Numero de Clicks  Numero de Clicks(Google)  Numero de Clicks (Yahoo)  Numero de Clicks(Excite) 
+ -------------------  ----------------  ------------------------  ------------------------  ------------------------ 
+          93                 35                    5                          9                          6             
+
+*informatica
+ Numero de Busquedas  Numero de Clicks  Numero de Clicks(Google)  Numero de Clicks (Yahoo)  Numero de Clicks(Excite) 
+ -------------------  ----------------  ------------------------  ------------------------  ------------------------ 
+          30                 0                    0                          0                          0             
+
+*musica
+ Numero de Busquedas  Numero de Clicks  Numero de Clicks(Google)  Numero de Clicks (Yahoo)  Numero de Clicks(Excite) 
+ -------------------  ----------------  ------------------------  ------------------------  ------------------------ 
+          9                 3                    0                          1                          2             
+
+*deportes
+ Numero de Busquedas  Numero de Clicks  Numero de Clicks(Google)  Numero de Clicks (Yahoo)  Numero de Clicks(Excite) 
+ -------------------  ----------------  ------------------------  ------------------------  ------------------------ 
+          53                 1                    0                          0                          0             
+
+*viajes
+ Numero de Busquedas  Numero de Clicks  Numero de Clicks(Google)  Numero de Clicks (Yahoo)  Numero de Clicks(Excite) 
+ -------------------  ----------------  ------------------------  ------------------------  ------------------------ 
+          8                 4                    1                          1                          1             

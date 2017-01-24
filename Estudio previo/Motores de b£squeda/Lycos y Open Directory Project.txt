@@ -1,0 +1,44 @@
+Lycos :
+"No es necesario ser un ingeniero informático para crear las búsquedas más 
+potentes en La Red"
+Ofrece la opción de buscar en páginas españolas o no.También búsquedas de imágenes y 
+sonido.
+La búsqueda avanzada : se puede usar 
++,
+-,
+"",
+AND & &&,
+OR | ||,
+NOT !,
+NEAR para encontrar 2 términos a 25 palabras de distancia,
+NEAR/n igual para n,
+ONEAR ONEAR/n respetando el orden,
+FAR FAR/n,
+OFAR OFAR/n,
+ADJ ADJ/n OADJ OADJ/n términos adyacentes,
+BEFORE un término antes de otro.
+
+Ofrece búsquedas en todo el doc, en el Título y en la URL.
+Y aparece un cuadro con la ponderación de diversos valores de la búsqueda ( alta,media,baja).
+
+Una cosa curiosa es que permite consultas en LENGUAJE NATURAL
+No presenta muchas formas de organiza<r los resultados, sólo el número y el criterio de 
+orden.
+¿ uso del directorio ?
+
+
+ODP : 
+Es un directorio formado por los propios internauitas y revisado por otros, en el que 
+cualquiera puede convertirse en editor de un tema en particulas ,
+lo usan Lycos o Hotbot . Permite búsquedas de categorías o contenidos.
+El uso del directorio es : Bajarse los ficheros RDF y usarlos como una base de datos.
+Están hechos en XML y se puede encontrar una descripción de los mismos en http://www.w3.org/RDF/
+
+La publicidad de este proyecto es : los HUMANOS lo hacen mejor
+
+
+
+
+
+
+

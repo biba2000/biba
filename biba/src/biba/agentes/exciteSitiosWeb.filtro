@@ -1,0 +1,46 @@
+estado 0
+       form > 1;
+       any > 0;
+estado 1
+       br > 2;
+       any > 1;
+estado 2
+       texto > 3,captura_hits;
+       any > 2;
+estado 3
+       li > 4;
+       any > 3;
+estado 4
+       texto > 5, captura_titulo;
+       any > 4;
+estado 5
+       /b > 6;
+       any > 5;
+estado 6
+       texto > 7,captura_href;
+       any > 6;
+estado 7
+       span > 8;
+       any > 7;
+estado 8
+       texto>8,concatena_comentario;
+       any>9;
+estado 9
+       /span>3,genera_dato,reset_comentario;
+       any>9;
+FIN
+
+
+estado 10
+       texto>11,captura_href;
+       any>10;
+estado 11
+       texto>11,concatena_comentario;
+       div>12;
+       any>11;
+estado 12
+       /span>7,genera_dato,reset_comentario;
+       any>12;
+FIN
+
+http://search.excite.com/search.gw?c=web&s=duran+duran

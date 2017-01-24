@@ -1,0 +1,22 @@
+<HTML>
+   <HEAD>
+      <TITLE> Comprobación de navegador </TITLE>
+      <SCRIPT LANGUAGE="javascript">
+         function comprobarNavegador()
+         {
+//		   alert( navigator.appName) ;	    	
+            if ( navigator.appName != "Microsoft Internet Explorer" ) {
+               alert( "El navegador utilizado (" + navigator.appName + ") no es válido. Utilice Internet Explorer 5.0 o superior." );
+            }
+            else {
+               document.location = "index2.html";
+            }
+
+        }
+      </SCRIPT>
+</HEAD>
+
+   <BODY OnLoad="comprobarNavegador();" >
+   </BODY>
+
+</HTML>

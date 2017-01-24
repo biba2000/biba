@@ -1,0 +1,108 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title> BIBA! -Buscador Inteligente Basado en Agentes </title>
+</head>
+
+<body bgcolor="#FFFFFF">
+<script>
+
+function esVacioTexto() {
+
+   if ( document.enviar.valorBusqueda.value=="" ) {
+      
+      return false;
+
+   }
+   else {
+      
+      return true;
+   }
+}
+
+</script>
+
+<p align="right">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" bgcolor="#C0C0C0" bordercolor="#000000"
+bordercolordark="#000000" bordercolorlight="#C0C0C0">
+    <tr>
+        <td bgcolor="#FFFFFF" nowrap><p align="left"><img
+        src="jsp/images/bibalogo.JPG" width="180" height="45"></p>
+        </td>
+    </tr>
+    <tr>
+        <td><br>
+        <ul>
+            <li><a href="formularioRegistro.html">Registrarse en
+                BIBA</a> </li>
+            <li>Entrar en la <a
+                href="formularioAbrirSesionBusqueda.html">sesión
+                de búsqueda</a> </li>
+        </ul>
+        <div align="center"><center><table border="0"
+        width="100%" bgcolor="#C0C0C0">
+            <tr>
+                <td bgcolor="#919697"><ul>
+                    <li>Búsqueda Rápida </li>
+                </ul>
+                <form action="servlet/ServletBusquedaRapida"
+                method="POST" name="enviar"
+                onsubmit="return esVacioTexto()">
+                    <input type="hidden" name="action"
+                    value="busquedaRapida"><!-- Utilizamos una entrada de tipo oculto para enviar la informacion
+                	al Servlet de que la acción a realizar es la de registro--><p><input type="text"
+                    size="21" name="valorBusqueda"> <input
+                    type="submit" value="Buscar"> </p>
+                </form>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#C0C0C0">&nbsp;</td>
+            </tr>
+            <tr>
+                <td align="right" bgcolor="#C0C0C0"><a
+                href="ayudaIndex.html">¿Qué es BIBA? </a></td>
+            </tr>
+        </table>
+        </center></div></td>
+    </tr>
+</table>
+</center></div>
+
+<p>&nbsp;</p>
+
+<hr size="1" width="85%">
+
+<p align="center"><font size="1" face="Verdana">Motores de
+búsqueda empleados </font></p>
+<div align="center"><center>
+
+<table border="0" cellspacing="11" width="75%">
+    <tr>
+        <td align="center"><img src="jsp/images/google.jpg"
+        width="100" height="35"></td>
+        <td align="center"><img src="jsp/images/excite.jpg"
+        width="99" height="43"></td>
+        <td align="center"><img src="jsp/images/lycos.jpg"
+        width="100" height="39"></td>
+        <td align="center"><img src="jsp/images/yahoo.jpg"
+        width="110" height="28"></td>
+    </tr>
+</table>
+</center></div>
+
+<hr size="1" width="85%">
+
+<p align="center">Facultad de Informática de la Universidad
+Complutense de Madrid</p>
+
+<p align="center"><img src="jsp/images/escudoFDI.jpg" width="125"
+height="131"><br>
+</p>
+</body>
+</html>

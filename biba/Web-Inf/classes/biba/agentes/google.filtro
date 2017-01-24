@@ -1,0 +1,72 @@
+estado 0
+  /form>1;
+  any>0;
+estado 1
+  table>2;
+  any>1;
+estado 2
+  table>3;
+  any>2;
+estado 3
+  b > 4;
+  any> 3;
+
+estado 4
+  b > 5;
+  any > 4;
+
+estado 5
+  b > 6;
+  any>5;
+
+estado 6
+  num_hits > 7, captura_hits;
+  any > 6;
+
+estado 7
+  p > 8, reset_titulo;
+  any > 7;
+
+estado 8
+  href > 9, captura_href;
+  any > 8;
+
+estado 9
+  texto > 10, captura_titulo;
+  b > 11;
+  any > 9;
+
+estado 10
+  b > 11;
+  any > 12;
+
+estado 11
+  texto > 11, concatena_titulo;
+  /b > 11;
+  b > 11;
+  any > 10;
+
+estado 12
+  br > 13;
+  any > 12;
+
+estado 13
+  texto > 14,captura_comentario;
+  b > 15;
+  any > 13;
+
+estado 14
+  b > 15;
+  any > 7, genera_dato;
+
+estado 15
+  texto > 15, concatena_comentario;
+  /b > 15;
+  b > 15;
+  br > 15;
+  any > 14;
+
+FIN
+estado 7
+  b > 8;
+  any > 4,genera_dato;

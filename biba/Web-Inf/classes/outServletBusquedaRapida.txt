@@ -1,0 +1,1045 @@
+Fecha y hora:Mon Jul 02 14:18:10 CEST 2001
+Sesion!=null
+action!=null
+action ==busquedaRapida
+valorBusqueda=futbol
+Estoy en consulta Google !! Cadena=futbol Añadido=
+antes de adapta Google
+La cad de busqueda es futbol
+Convierto de:futbol los: : a:+
+La consulta fo 1 :futbol
+Convierto de: los:+: a:+OR+
+anyade :
+La búsqueda es : http://www.google.com/search?q=futbol
+tras adapta Google
+tras construir url Google
+tras construir conex Google
+Estoy en consulta Excite !! Cadena=futbol Añadido=
+antes de adapta Excite
+Convierto de:futbol los: : a:+AND+
+Convierto de: los:+: a:+OR+
+tras adapta Excite
+tras construir url Excite
+tras construir conex Excite
+Estoy en consulta Yahoo !! Cadena=futbol Añadido=
+antes de adapta Yahoo
+Convierto de:futbol los: : a:+
+tras adapta Yahoo
+tras construir url Yahoo
+tras construir conex Yahoo
+Estoy en consulta Lycos !! Cadena=futbol Añadido=
+antes de adapta Lycos
+Convierto de:futbol los: : a:+AND+
+Convierto de: los:+: a:+OR+
+tras adapta Lycos
+tras construir url Lycos
+tras construir conex Lycos
+tras construir datos Excite
+Estado 1  Ejecutando token: br y accion 2 con dato $$
+Estado 2  Ejecutando token: table y accion 3 con dato $$
+Estado 3  Ejecutando token: table y accion 4 con dato $$
+Estado 4  Ejecutando token: table y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $Top 20 of about 5,460 found in $
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Stetson $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ Association$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $360 Soccer - Football, $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $, Futebol, Calcio, Fusball, Voetbol$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Revista Internet $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ de Guatemala$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Futbol$
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ de Honduras,&nbsp; Index$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $The Grand Masters of $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ for $
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $SportsYA! - Canal $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $CHILE ESPAÑA EUA MEXICO PERU CANAL GLOBAL POR DEPORTE Arthur Antunes Coimbra Zico Hugo Sánchez César Luis Menotti Ignacio Tena Keyvan Antonio Heydari$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Memphis $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ Club Home$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Classic $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ Club$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Houstonians $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ Club$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $LatiNet | $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $The sport of $
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Chula $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ Club$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Uruguay Soccer/$
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ Club$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Futbol$
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ 365 - PORTADA$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Argentina Soccer - $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ Argentino$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $South Sound Select $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ Club$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $North Huntington Beach $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ Club$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Waco $
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ Club - Waco $
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Futbol$
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $, $
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Futbol$
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ Boliviano The Strongest La Paz$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Futbol$
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ de ascenso primera c $
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: /span y accion 6 con dato $$
+Estado 6  Ejecutando token: li y accion 7 con dato $$
+Estado 7  Ejecutando token: texto y accion 8 con dato $Find futbol on eBay$
+Estado 8  Ejecutando token: /b y accion 9 con dato $$
+Estado 9  Ejecutando token: texto y accion 10 con dato $&nbsp;$
+Estado 10  Ejecutando token: span y accion 11 con dato $$
+Estado 11  Ejecutando token: b y accion 6 con dato $$
+20
+tras filtrar datos Excite
+A punto de terminar hebra de Recolector
+Ha finalizado una búsqueda
+tras construir datos Lycos
+tras construir datos Google
+Estado 1  Ejecutando token: table y accion 2 con dato $$
+Estado 2  Ejecutando token: table y accion 3 con dato $$
+Estado 3  Ejecutando token: b y accion 4 con dato $$
+Estado 4  Ejecutando token: b y accion 5 con dato $$
+Estado 5  Ejecutando token: b y accion 6 con dato $$
+Estado 6  Ejecutando token: texto y accion 7 con dato $www.sportec.com/www/rfef/main.htm - 1k - $
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.futbolmundial.com.mx/$
+Estado 9  Ejecutando token: texto y accion 10 con dato $Mundosoccer.com$
+Estado 10  Ejecutando token: /a y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $ $
+Estado 14  Ejecutando token: b y accion 15 con dato $$
+Estado 15  Ejecutando token: font y accion 14 con dato $$
+Estado 14  Ejecutando token: texto y accion 7 con dato $Description:$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.afa.org.ar/Home.asp$
+Estado 9  Ejecutando token: texto y accion 10 con dato $AFA$
+Estado 10  Ejecutando token: /a y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $ $
+Estado 14  Ejecutando token: b y accion 15 con dato $$
+Estado 15  Ejecutando token: font y accion 14 con dato $$
+Estado 14  Ejecutando token: texto y accion 7 con dato $Description:$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.futbolchileno.com/$
+Estado 9  Ejecutando token: texto y accion 10 con dato $Futbolchileno &gt;&gt;&gt; Remolelando...$
+Estado 10  Ejecutando token: /a y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $ $
+Estado 14  Ejecutando token: b y accion 15 con dato $$
+Estado 15  Ejecutando token: font y accion 14 con dato $$
+Estado 14  Ejecutando token: texto y accion 7 con dato $Description:$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://futbol.clubplaneta.com.mx/$
+Estado 9  Ejecutando token: texto y accion 10 con dato $Fabuloso Mundo del Fútbol, un servicio de Club Planeta.$
+Estado 10  Ejecutando token: /a y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $ $
+Estado 14  Ejecutando token: b y accion 15 con dato $$
+Estado 15  Ejecutando token: font y accion 14 con dato $$
+Estado 14  Ejecutando token: texto y accion 7 con dato $Description:$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.360soccer.com/$
+Estado 9  Ejecutando token: texto y accion 10 con dato $360 Soccer - Football, $
+Estado 10  Ejecutando token: b y accion 11 con dato $$
+Estado 11  Ejecutando token: /a y accion 10 con dato $$
+Estado 10  Ejecutando token: font y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $ $
+Estado 14  Ejecutando token: b y accion 15 con dato $$
+Estado 15  Ejecutando token: font y accion 14 con dato $$
+Estado 14  Ejecutando token: texto y accion 7 con dato $Description:$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.futbol365.com/$
+Estado 9  Ejecutando token: b y accion 11 con dato $$
+Estado 11  Ejecutando token: /a y accion 10 con dato $$
+Estado 10  Ejecutando token: font y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $Navegue en nuestros sitios : go. $
+Estado 14  Ejecutando token: b y accion 15 con dato $$
+Estado 15  Ejecutando token: font y accion 14 con dato $$
+Estado 14  Ejecutando token: texto y accion 7 con dato $Description:$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.tff.org.tr/$
+Estado 9  Ejecutando token: texto y accion 10 con dato $Turkiye $
+Estado 10  Ejecutando token: b y accion 11 con dato $$
+Estado 11  Ejecutando token: /a y accion 10 con dato $$
+Estado 10  Ejecutando token: font y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $ $
+Estado 14  Ejecutando token: b y accion 15 con dato $$
+Estado 15  Ejecutando token: font y accion 14 con dato $$
+Estado 14  Ejecutando token: texto y accion 7 con dato $www.tff.org.tr/ - 6k - $
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.conmebol.com/$
+Estado 9  Ejecutando token: texto y accion 10 con dato $Confederación Sudamericana de Fútbol $
+Estado 10  Ejecutando token: /a y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $Category:$
+Estado 14  Ejecutando token: /font y accion 7 con dato $$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.servifutbol.es/net-futbol/$
+Estado 9  Ejecutando token: texto y accion 10 con dato $NET-$
+Estado 10  Ejecutando token: b y accion 11 con dato $$
+Estado 11  Ejecutando token: /a y accion 10 con dato $$
+Estado 10  Ejecutando token: font y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $Organizaciones FIFA, UEFA, Concacaf, Conmebol Fútbol Español$
+Estado 14  Ejecutando token: br y accion 7 con dato $$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://futbol.guatemala.org/$
+Estado 9  Ejecutando token: b y accion 11 con dato $$
+Estado 11  Ejecutando token: /a y accion 10 con dato $$
+Estado 10  Ejecutando token: font y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $Category:$
+Estado 14  Ejecutando token: /font y accion 7 con dato $$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.rivannrodriguez.com/$
+Estado 9  Ejecutando token: b y accion 11 con dato $$
+Estado 11  Ejecutando token: /a y accion 10 con dato $$
+Estado 10  Ejecutando token: font y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $ $
+Estado 14  Ejecutando token: b y accion 15 con dato $$
+Estado 15  Ejecutando token: font y accion 14 con dato $$
+Estado 14  Ejecutando token: texto y accion 7 con dato $www.rivannrodriguez.com/ - 35k - $
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.futvol.com/$
+Estado 9  Ejecutando token: texto y accion 10 con dato $futvol.com: $
+Estado 10  Ejecutando token: b y accion 11 con dato $$
+Estado 11  Ejecutando token: /a y accion 10 con dato $$
+Estado 10  Ejecutando token: font y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $futbol espa?ol,seleccion espa?ola,ultimas,noticias,estadisticas,transmisiones en directo y reportajes$
+Estado 14  Ejecutando token: br y accion 7 con dato $$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.futcat.org/$
+Estado 9  Ejecutando token: texto y accion 10 con dato $Pagina Oficial Federació Catalana de $
+Estado 10  Ejecutando token: b y accion 11 con dato $$
+Estado 11  Ejecutando token: /a y accion 10 con dato $$
+Estado 10  Ejecutando token: font y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $Esta página usa marcos, pero su explorador no los admite.$
+Estado 14  Ejecutando token: br y accion 7 con dato $$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.futbolperuano.com/$
+Estado 9  Ejecutando token: texto y accion 10 con dato $Futbolperuano.com - $
+Estado 10  Ejecutando token: b y accion 11 con dato $$
+Estado 11  Ejecutando token: /a y accion 10 con dato $$
+Estado 10  Ejecutando token: font y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $Category:$
+Estado 14  Ejecutando token: /font y accion 7 con dato $$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.anfp.cl/$
+Estado 9  Ejecutando token: texto y accion 10 con dato $ANFP - home$
+Estado 10  Ejecutando token: /a y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $Category:$
+Estado 14  Ejecutando token: /font y accion 7 con dato $$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.futboldeguatemala.com/$
+Estado 9  Ejecutando token: texto y accion 10 con dato $Revista Internet $
+Estado 10  Ejecutando token: b y accion 11 con dato $$
+Estado 11  Ejecutando token: /a y accion 10 con dato $$
+Estado 10  Ejecutando token: font y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $ $
+Estado 14  Ejecutando token: b y accion 15 con dato $$
+Estado 15  Ejecutando token: font y accion 14 con dato $$
+Estado 14  Ejecutando token: texto y accion 7 con dato $Description:$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.futbolargentino.com.ar/$
+Estado 9  Ejecutando token: b y accion 11 con dato $$
+Estado 11  Ejecutando token: /a y accion 10 con dato $$
+Estado 10  Ejecutando token: font y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $El Megasitio del Futbol Argentino - Comentarios - Tablas de Posiciones y Goleadores - Fotografias - Lista de correo - Chat e IRC - FUTBOL ARGENTINO - $
+Estado 14  Ejecutando token: b y accion 15 con dato $$
+Estado 15  Ejecutando token: font y accion 14 con dato $$
+Estado 14  Ejecutando token: texto y accion 7 con dato $Description:$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://www.futbolpasion.com/$
+Estado 9  Ejecutando token: texto y accion 10 con dato $Futbolpasion.com - Fútbol Argentino$
+Estado 10  Ejecutando token: /a y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $ $
+Estado 14  Ejecutando token: b y accion 15 con dato $$
+Estado 15  Ejecutando token: font y accion 14 con dato $$
+Estado 14  Ejecutando token: texto y accion 7 con dato $Description:$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $/search?q=futbol&num=20&safe=off&start=20&sa=N$
+Estado 9  Ejecutando token: texto y accion 10 con dato $2$
+Estado 10  Ejecutando token: /a y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $3$
+Estado 14  Ejecutando token: /a y accion 7 con dato $$
+Estado 7  Ejecutando token: p y accion 8 con dato $$
+Estado 8  Ejecutando token: href y accion 9 con dato $http://directory.google.com$
+Estado 9  Ejecutando token: texto y accion 10 con dato $Google&nbsp;Web&nbsp;Directory$
+Estado 10  Ejecutando token: /font y accion 12 con dato $$
+Estado 12  Ejecutando token: br y accion 13 con dato $$
+Estado 13  Ejecutando token: texto y accion 14 con dato $&copy;2001 Google$
+Estado 14  Ejecutando token: /font y accion 7 con dato $$
+1
+tras filtrar datos Google
+A punto de terminar hebra de Recolector
+Ha finalizado una búsqueda
+Estado 1  Ejecutando token: texto y accion 2 con dato $			20 de  384480 resultados			$
+Estado 2  Ejecutando token: texto y accion 3 con dato $futvol.com: futbol de 16 paises y en español$
+Estado 3  Ejecutando token: texto y accion 4 con dato $																																		Todo sobre el fútbol de 16 países y en español.Ultimas noticias, transmisiones en directo,reportajes,torneos,ligas y entretenimiento solo para aficionados del $
+Estado 4  Ejecutando token: li y accion 5 con dato $$
+Estado 5  Ejecutando token: href y accion 6 con dato $"http://www.sportec.com/www/rfef/"$
+Estado 6  Ejecutando token: /a y accion 7 con dato $$
+16
+tras filtrar datos Lycos
+A punto de terminar hebra de Recolector
+Ha finalizado una búsqueda
+tras construir datos Yahoo
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/1/*http://www.futbol.pl/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbol.pl/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/2/*http://www.tff.org.tr/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.tff.org.tr/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/3/*http://www.futbol365.com/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbol365.com/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/4/*http://www.futbolargentino.com.ar/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbolargentino.com.ar/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/5/*http://www.futbolmundial.com.mx/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbolmundial.com.mx/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/6/*http://www.jps.net/migutz/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.jps.net/migutz/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/7/*http://www.futboldeguatemala.com/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futboldeguatemala.com/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/8/*http://www.servifutbol.es/net-futbol/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.servifutbol.es/net-futbol/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/9/*http://www.futbol.com.uy/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbol.com.uy/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/10/*http://www.peru.com/futbol/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.peru.com/futbol/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/11/*http://www.sportec.com/www/laliga/main.htm"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.sportec.com/www/laliga/main.htm&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/12/*http://www.futbol.as/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbol.as/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/13/*http://www.futbol.com/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbol.com/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/14/*http://futbol.guatemala.org/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://futbol.guatemala.org/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/15/*http://futbol.clubplaneta.com.mx/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://futbol.clubplaneta.com.mx/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/16/*http://www.futcat.org/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futcat.org/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/17/*http://www.360soccer.com/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.360soccer.com/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/18/*http://es.sports.yahoo.com/foot/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://es.sports.yahoo.com/foot/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/19/*http://www.atienza.org/futbol/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.atienza.org/futbol/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/futbol/20/*http://www.futbolchileno.com/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbolchileno.com/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+113000
+tras filtrar datos Yahoo
+A punto de terminar hebra de Recolector
+Ha finalizado una búsqueda
+Hemos terminado con las búsquedas
+**************************************************************
+URL:Association Titulo:Stetson 
+Resumen:http://www.stetson-futbol.org/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:, Futebol, Calcio, Fusball, Voetbol Titulo:360 Soccer - Football, 
+Resumen:http://www.360soccer.com/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:de Guatemala Titulo:Revista Internet 
+Resumen:http://www.futboldeguatemala.com/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:de Honduras,&nbsp; Index Titulo:Futbol
+Resumen:http://www.rivannrodriguez.com/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:for Titulo:The Grand Masters of 
+Resumen:http://www.grandmasters.net/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:CHILE ESPAÑA EUA MEXICO PERU CANAL GLOBAL POR DEPORTE Arthur Antunes Coimbra Zico Hugo Sánchez César Luis Menotti Ignacio Tena Keyvan Antonio Heydari Titulo:SportsYA! - Canal 
+Resumen:http://futbol.sportsya.com/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:Club Home Titulo:Memphis 
+Resumen:http://www.memphisfc.com/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:Club Titulo:Classic 
+Resumen:http://www.unm.edu/~gbauers/classic_fc.html
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:Club Titulo:Houstonians 
+Resumen:http://www.go.to/HoustoniansFC
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:The sport of Titulo:LatiNet | 
+Resumen:http://www.ibiblio.org/latinet/futbol.html
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:Club Titulo:Chula 
+Resumen:http://www.chulafc.org/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:Club Titulo:Uruguay Soccer/
+Resumen:http://www.uruguaysoccerclub.com/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:365 - PORTADA Titulo:Futbol
+Resumen:http://www.futbol365.com/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:Argentino Titulo:Argentina Soccer - 
+Resumen:http://ericwong.virtualave.net/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:Club Titulo:South Sound Select 
+Resumen:http://www.southsoundselect.org/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:Club Titulo:North Huntington Beach 
+Resumen:http://www.hbsurfcity.com/nhb/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:Club - Waco Titulo:Waco 
+Resumen:http://www.accesswaco.com/community/groups/wacofc/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:, Titulo:Futbol
+Resumen:http://www.jps.net/migutz/acca.htm
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:Boliviano The Strongest La Paz Titulo:Futbol
+Resumen:http://the-strongest.pyar.com/
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:de ascenso primera c Titulo:Futbol
+Resumen:http://www.infoascenso.com/primerac/index.html
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:&nbsp; Titulo:Find futbol on eBay
+Resumen:http://www.infoascenso.com/primerac/index.html
+Valoracion:0.0
+Buscadores:[Excite]
+**************************************************************
+**************************************************************
+URL:http://www.futbolmundial.com.mx/ Titulo:Mundosoccer.com
+Resumen: ... Nuevo Copa Confederaciones 2001. VI Torneo De Naciones (UNCAF). La Belleza En ElFutbol Dentro de un enorme caos, arribó la Selección Mexicana de Futbol a la ... 
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.afa.org.ar/Home.asp Titulo:AFA
+Resumen: ... No te pierdas a los que hicieron grande la camiseta celeste y blanca. Lomejor de la revista oficial de la Asociación del Futbol Argentino. ... 
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.futbolchileno.com/ Titulo:Futbolchileno &gt;&gt;&gt; Remolelando...
+Resumen: ... ti. Si deseas mantenerte informado del nuevo lanzamiento del Primer Portal del FutbolChileno , te recomendamos te suscribas a nuestra lista de correo. Atte ... 
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://futbol.clubplaneta.com.mx/ Titulo:Fabuloso Mundo del Fútbol, un servicio de Club Planeta.
+Resumen: ... Fabuloso Mundo del Fútbol. Fabuloso Mundo delFútbol. ... Click to learn more... ... 
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.360soccer.com/ Titulo:360 Soccer - Football, Futbol, Futebol, Calcio, Fusball, ... 
+Resumen: ... 360 Soccer - Football, Futbol, Futebol, Calcio, Fusball, Voetbol ~ http://www.360soccer.comAll Rights Reserved Copyright 1999 Integrity Internet Information ... 
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.futbol365.com/ Titulo:Futbol 365 - PORTADA
+Resumen:Navegue en nuestros sitios : go. ... 
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.tff.org.tr/ Titulo:Turkiye Futbol Federasyonu Web Sayfalari
+Resumen: ... * TÜRKÝYE FUTBOL FEDERASYONU ** ** 2001 ÝNTERNET SÝTESÝ KESÝNTÝSÝZ HÝZMETVERMEKTE ** ** 21 NÝSAN 2001 **. ... Copyright 1997 Türkiye Futbol Federasyonu
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.conmebol.com/ Titulo:Confederación Sudamericana de Fútbol 
+Resumen:Category:
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.servifutbol.es/net-futbol/ Titulo:NET-FUTBOL: Tu punto de inicio en el Futbol por Internet
+Resumen:Organizaciones FIFA, UEFA, Concacaf, Conmebol Fútbol Español
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://futbol.guatemala.org/ Titulo:Futbol de Guatemala...Bienvenidos!!!
+Resumen:Category:
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.rivannrodriguez.com/ Titulo:Futbol de Honduras, Index
+Resumen: ... trademarks and registered trademarks are the property of their respective holders.Futbol de Honduras has no afiliation with any Honduras Federation. Copyright ... 
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.futvol.com/ Titulo:futvol.com: futbol de 16 paises y en español
+Resumen:futbol espa?ol,seleccion espa?ola,ultimas,noticias,estadisticas,transmisiones en directo y reportajes
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.futcat.org/ Titulo:Pagina Oficial Federació Catalana de Futbol
+Resumen:Esta página usa marcos, pero su explorador no los admite.
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.futbolperuano.com/ Titulo:Futbolperuano.com - Futbol Peruano En Tiempo Real 
+Resumen:Category:
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.anfp.cl/ Titulo:ANFP - home
+Resumen:Category:
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.futboldeguatemala.com/ Titulo:Revista Internet Futbol de Guatemala
+Resumen: ... equipos guatemaltecos Comunicaciones y Municipal clasificación a la siguiente rondadel torneo &quot;Copa de Gigantes&quot;, que organiza la Confederación de Futbol. ... 
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.futbolargentino.com.ar/ Titulo:FUTBOL ARGENTINO - ARGENTINE SOCCER WEB SITE - TODO EL ... 
+Resumen:El Megasitio del Futbol Argentino - Comentarios - Tablas de Posiciones y Goleadores - Fotografias - Lista de correo - Chat e IRC - FUTBOL ARGENTINO - ...
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.futbolpasion.com/ Titulo:Futbolpasion.com - Fútbol Argentino
+Resumen: ... English Português Resultados on line - Noticias: síntesis - detalle.Un solo tiempo alcanzó. ... Chicago se llevó la primera final. ... 
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:/search?q=futbol&num=20&safe=off&start=20&sa=N Titulo:2
+Resumen:3
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://directory.google.com Titulo:Google&nbsp;Web&nbsp;Directory
+Resumen:&copy;2001 Google
+Valoracion:0.0
+Buscadores:[Google]
+**************************************************************
+**************************************************************
+URL:http://www.futbol.pl/&nbsp;&nbsp; Titulo:Futbol SportNet
+Resumen: ... Walia - Polska LIVE, Wybierz Lig?, ... 
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.tff.org.tr/&nbsp;&nbsp; Titulo:Turkiye Futbol Federasyonu Web Sayfalari
+Resumen: ... * TÜRKÝYE FUTBOL FEDERASYONU ** ** 2001 ÝNTERNET SÝTESÝ KESÝNTÝSÝZ HÝZMETVERMEKTE ** ** 21 NÝSAN 2001 **. ... Copyright 1997 Türkiye Futbol Federasyonu
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.futbol365.com/&nbsp;&nbsp; Titulo:Futbol 365 - PORTADA
+Resumen:Navegue en nuestros sitios : go. ... 
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.futbolargentino.com.ar/&nbsp;&nbsp; Titulo:FUTBOL ARGENTINO - ARGENTINE SOCCER WEB SITE - TODO EL ... 
+Resumen:El Megasitio del Futbol Argentino - Comentarios - Tablas de Posiciones y Goleadores - Fotografias - Lista de correo - Chat e IRC - FUTBOL ARGENTINO - ...
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.futbolmundial.com.mx/&nbsp;&nbsp; Titulo:Mundosoccer.com
+Resumen: ... Nuevo Copa Confederaciones 2001. VI Torneo De Naciones (UNCAF). La Belleza En ElFutbol Dentro de un enorme caos, arribó la Selección Mexicana de Futbol a la ... 
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.jps.net/migutz/&nbsp;&nbsp; Titulo:Futbol, Futbol y mas Futbol - Global Soccer / Futbol ... 
+Resumen:Futbol, Futbol y mas Futbol. Moved to 360 Soccer! Pleaseupdate your bookmarks to the ... 
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.futboldeguatemala.com/&nbsp;&nbsp; Titulo:Revista Internet Futbol de Guatemala
+Resumen: ... equipos guatemaltecos Comunicaciones y Municipal clasificación a la siguiente rondadel torneo &quot;Copa de Gigantes&quot;, que organiza la Confederación de Futbol. ... 
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.servifutbol.es/net-futbol/&nbsp;&nbsp; Titulo:NET-FUTBOL: Tu punto de inicio en el Futbol por Internet
+Resumen:Organizaciones FIFA, UEFA, Concacaf, Conmebol Fútbol Español1ª División, 2ª División, 2ª División B. ... 
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.futbol.com.uy/&nbsp;&nbsp; Titulo:www.futbol.com.uy - La Web Deportiva Uruguaya en el Portal ... 
+Resumen: ... Copyright 1996-2001, LA WEB DEPORTIVA URUGUAYA http://www.futbol.com.uy- Todos los derechos reservados -.
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.peru.com/futbol/&nbsp;&nbsp; Titulo:FUTBOLPERUANO.COM
+Resumen: ... 2001 ); Encuesta: ¿Debe realizarse la Copa Américaen Colombia? ( 6/3/2001 ). Más Noticias. ... 
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.sportec.com/www/laliga/main.htm&nbsp;&nbsp; Titulo:Todo el futbol en Sportec
+Resumen:Sigue en SPORTEC toda la informacion del futbol español y extranjero minuto a minuto. Todos los resultados, clasificaciones, estadisticas, previas, ...
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.futbol.as/&nbsp;&nbsp; Titulo:www.futbol.as
+Resumen: ... FUTBOL.AS | Israel- España. España afronta el encuentro frente a Israel con unatranquilidad moderada Con cierta inquietud debida a la situación que se vive ... 
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.futbol.com/&nbsp;&nbsp; Titulo:Futbol.com, el numero uno del futbol en Internet
+Resumen: ... Todo sobre el fútbol: futbol español, fútbol argentino, fútbol mexicano, fútbolsudamericano, todas las noticias de futbol, todas las noticias de fútbol ... 
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://futbol.guatemala.org/&nbsp;&nbsp; Titulo:Futbol de Guatemala...Bienvenidos!!!
+Resumen:
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://futbol.clubplaneta.com.mx/&nbsp;&nbsp; Titulo:Fabuloso Mundo del Fútbol, un servicio de Club Planeta.
+Resumen: ... Fabuloso Mundo del Fútbol. Fabuloso Mundo delFútbol. ... Click to learn more... ... 
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.futcat.org/&nbsp;&nbsp; Titulo:Pagina Oficial Federació Catalana de Futbol
+Resumen:Esta página usa marcos, pero su explorador no los admite.
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.360soccer.com/&nbsp;&nbsp; Titulo:360 Soccer - Football, Futbol, Futebol, Calcio, Fusball, ... 
+Resumen: ... 360 Soccer - Football, Futbol, Futebol, Calcio, Fusball, Voetbol ~ http://www.360soccer.comAll Rights Reserved Copyright 1999 Integrity Internet Information ... 
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://es.sports.yahoo.com/foot/&nbsp;&nbsp; Titulo:Yahoo! Deportes - Futbol
+Resumen: ... Últimas Fotos. Foto Foto ampliada (AP). Másfotos Fotos de Futbol. Colombia lucha por ... 
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.atienza.org/futbol/&nbsp;&nbsp; Titulo:Futbol y futbol-sala
+Resumen: ... Futbol y futbol-sala. ... Entra el canal #futbol_sala en el IRC-HISPANO.Firma mi libro de Visitas. Libro de visitas. ... 
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+**************************************************************
+URL:http://www.futbolchileno.com/&nbsp;&nbsp; Titulo:Futbolchileno &gt;&gt;&gt; Remolelando...
+Resumen: ... ti. Si deseas mantenerte informado del nuevo lanzamiento del Primer Portal del FutbolChileno , te recomendamos te suscribas a nuestra lista de correo. Atte ... 
+Valoracion:0.0
+Buscadores:[Yahoo]
+**************************************************************
+Ha finalizado un filtrador
+Hemos terminado con el filtraje
+biba.visualizador.resultadoBusquedaRapida,url=/jsp/resultadoBusquedaRapida.jsp
+Sesion!=null
+action!=null
+action ==registro
+nombre=1 contrasena=1
+biba.persistencia.AccesoBD.existe :C:\Java\Apache13\Tomcat32\webapps\biba\perfilesUsuario\1.dat
+Creamos InfoUsuario
+InfoUsuario(1, 1
+Sesion!=null
+Recuperamos la  InfoUsuario de 1
+biba.persistencia.AccesoBD.existe :C:\Java\Apache13\Tomcat32\webapps\biba\perfilesUsuario\1.dat
+recuperamos la plantilla general
+Vector temasActivos.size=1 general
+biba.visualizador.abrirSesion,url=/jsp/abrirSesion.jsp
+Sesion!=null
+Recuperamos InfoUsuario
+biba.persistencia.AccesoBD.existe :C:\Java\Apache13\Tomcat32\webapps\biba\perfilesUsuario\1.dat
+InfoUsuario(1, 1
+valor pestaniaAntigua=general
+LA PLANTILLA QUE RECUPERAMOS DE PERSISTENCIA del tema:general
+Estoy en consulta Google !! Cadena=FUTBOL Añadido=
+antes de adapta Google
+La cad de busqueda es FUTBOL
+Convierto de:FUTBOL los: : a:+
+La consulta fo 1 :FUTBOL
+Convierto de: los:+: a:+OR+
+anyade :
+La búsqueda es : http://www.google.com/search?q=FUTBOL
+tras adapta Google
+tras construir url Google
+tras construir conex Google
+Estoy en consulta Excite !! Cadena=FUTBOL Añadido=
+antes de adapta Excite
+Convierto de:FUTBOL los: : a:+AND+
+Convierto de: los:+: a:+OR+
+tras adapta Excite
+tras construir url Excite
+tras construir conex Excite
+Estoy en consulta Yahoo !! Cadena=FUTBOL Añadido=
+antes de adapta Yahoo
+Convierto de:FUTBOL los: : a:+
+tras adapta Yahoo
+tras construir url Yahoo
+tras construir conex Yahoo
+Estoy en consulta Lycos !! Cadena=FUTBOL Añadido=
+antes de adapta Lycos
+Convierto de:FUTBOL los: : a:+AND+
+Convierto de: los:+: a:+OR+
+tras adapta Lycos
+tras construir url Lycos
+tras construir conex Lycos
+tras construir datos Excite
+tras construir datos Yahoo
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/1/*http://www.futbol.pl/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbol.pl/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/2/*http://www.tff.org.tr/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.tff.org.tr/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/3/*http://www.futbol365.com/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbol365.com/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/4/*http://www.futbolargentino.com.ar/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbolargentino.com.ar/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/5/*http://www.futbolmundial.com.mx/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbolmundial.com.mx/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/6/*http://www.jps.net/migutz/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.jps.net/migutz/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/7/*http://www.futboldeguatemala.com/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futboldeguatemala.com/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/8/*http://www.servifutbol.es/net-futbol/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.servifutbol.es/net-futbol/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/9/*http://www.futbol.com.uy/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbol.com.uy/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/10/*http://www.peru.com/futbol/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.peru.com/futbol/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/11/*http://www.sportec.com/www/laliga/main.htm"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.sportec.com/www/laliga/main.htm&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/12/*http://www.futbol.as/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbol.as/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/13/*http://www.futbol.com/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbol.com/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/14/*http://futbol.guatemala.org/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://futbol.guatemala.org/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/15/*http://futbol.clubplaneta.com.mx/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://futbol.clubplaneta.com.mx/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/16/*http://www.futcat.org/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futcat.org/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/17/*http://www.360soccer.com/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.360soccer.com/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/18/*http://es.sports.yahoo.com/foot/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://es.sports.yahoo.com/foot/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/19/*http://www.atienza.org/futbol/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.atienza.org/futbol/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+Estado 1  Ejecutando token: li y accion 2 con dato $$
+Estado 2  Ejecutando token: href y accion 3 con dato $"http://srd.yahoo.com/goo/FUTBOL/20/*http://www.futbolchileno.com/"$
+Estado 3  Ejecutando token: small y accion 4 con dato $$
+Estado 4  Ejecutando token: font y accion 5 con dato $$
+Estado 5  Ejecutando token: texto y accion 6 con dato $http://www.futbolchileno.com/&nbsp;&nbsp;$
+Estado 6  Ejecutando token: p y accion 1 con dato $$
+113000
+tras filtrar datos Yahoo
+A punto de terminar hebra de Recolector
+Ha finalizado una búsqueda

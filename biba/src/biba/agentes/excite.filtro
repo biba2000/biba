@@ -1,0 +1,52 @@
+estado 0
+       br > 1;
+       any > 0;
+
+estado 1
+       br > 2;
+       any > 1;
+
+estado 2
+       table > 3;
+       any > 2;
+
+estado 3
+       table > 4;
+       any > 3;
+
+estado 4
+       table > 5;
+       any > 4;
+
+estado 5
+       texto > 6, captura_hits;
+       any > 5;
+
+estado 6
+       li > 7;
+       any > 6;
+
+estado 7
+       texto > 8, captura_titulo;
+       any > 7;
+
+estado 8
+       /b > 9;
+       any > 8;
+
+estado 9
+       texto > 10, captura_href;
+       any > 9;
+
+estado 10
+       span > 11;
+       any > 10;
+
+estado 11
+       texto > 11, captura_comentario;
+       any > 6, genera_dato;
+
+estado 12
+       /span > 6, genera_dato;
+       any > 12;
+FIN

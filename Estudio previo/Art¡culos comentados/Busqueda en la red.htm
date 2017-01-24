@@ -1,0 +1,329 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Búsqueda en la red</title>
+<meta name="Microsoft Theme" content="sumipntg 001, default">
+</head>
+
+<body background="../../../_themes/sumipntg/sumtextb.jpg" tppabs="http://www.fdi.ucm.es/_themes/sumipntg/sumtextb.jpg" bgcolor="#FFFFFF" text="#000066" link="#3333CC" vlink="#666699" alink="#990099"><!--mstheme--><font face="Verdana, Arial, Helvetica">
+
+<p class="MsoNormal" style="margin-right:-.05pt"><font size="2"><b style="mso-bidi-font-weight:
+normal"><u><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: ES-TRAD">Búsqueda
+en la red</span></u></b><b style="mso-bidi-font-weight:normal"><span style="mso-spacerun: yes; mso-ansi-language: ES-TRAD" lang="ES-TRAD">&nbsp;&nbsp;
+</span></b><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD">(</span><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: ES-TRAD">Miembros<span style="mso-spacerun: yes">&nbsp;
+</span>del proyecto Clever</span><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD">)<o:p>
+</o:p>
+</span></font></p>
+<h1 style="margin-right:-.05pt"><!--mstheme--><font color="#003366"><span lang="ES-TRAD"><font size="2">&nbsp;</font></span><span lang="ES-TRAD"><font size="2">Comentario
+por : Emilio Bobadilla Álvarez <o:p>
+</o:p>
+</font></span><!--mstheme--></font></h1>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoBodyText"><span lang="ES-TRAD"><font size="2">Como resultado del
+aumento exponencial de páginas en la red, la organización resultante de la
+misma resulta totalmente caótica.</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">Ante
+esto,<span style="mso-spacerun: yes">&nbsp; </span>¿cómo localizar de forma<span style="mso-spacerun: yes">&nbsp;
+</span>rápida y efectiva la información?. Los métodos clásicos de indexación
+por repetición de patrones parecen poco efectivos a la hora de recuperar
+información de calidad. <o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;</font><font size="2">A
+partir de la observación de que la estructura de la red es soportada por los
+enlaces entre las páginas el sistema Clever trata de descubrir la estructura a
+través de los enlaces y las comunidades en torno a un tema que se crean en la
+red debido a la fuerte conexión de páginas de un mismo tema.<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;</font><font size="2">Para
+estructurar la red Clever diferencia dos tipos de páginas: </font><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-.05pt;margin-bottom:
+0cm;margin-left:35.4pt;margin-bottom:.0001pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">Autoridades,
+acerca de un tema.<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-.05pt;margin-bottom:
+0cm;margin-left:35.4pt;margin-bottom:.0001pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">Ganglios,
+conjuntos de enlaces que apuntan a autoridades.<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;</font><font size="2">Una
+autoridad con calidad es una página apuntada por muchos ganglios útiles y un
+ganglio útil es aquel que apunta a muchas autoridades de calidad.<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">Veamos
+un seudocódigo de cómo Clever crea la partición entre autoridades y ganglios
+a partir de un conjunto inicial de páginas recuperadas a través de un buscador
+clásico.<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2"><span style="mso-tab-count:1">&nbsp;&nbsp;
+</span><b><u>Algoritmo Clever<o:p>
+</o:p>
+</u></b></font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-tab-count:1"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="2"><o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Q := petición de búsqueda del usuario;</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt">&nbsp;&nbsp; <span lang="ES-TRAD"><font size="2"><span style="mso-tab-count: 1; mso-ansi-language: ES-TRAD">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">F<span style="mso-spacerun: yes">&nbsp;
+</span>:=<span style="mso-spacerun: yes">&nbsp; </span>buscador clásico (Altavista,
+lycos,..)<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">//En
+Autoridades y Ganglios va a estar la solución de nuestro algoritmo<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">Autoridades
+:= vacío();<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">Ganglios
+:= vacío();<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">Búsqueda
+:= buscarEn (Q, F);<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">Direcciones_ini
+:= Tomar las 200 primeras página Búsqueda;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-.05pt;margin-bottom:
+0cm;margin-left:35.4pt;margin-bottom:.0001pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">/*
+Direcciones alcanzables toma las Direccione_ini y devuelve las páginas
+alcanzables hacia delante y hacia detrás desde Direcciones_ini (al final
+tendremos de 1000 a 5000 páginas)*/<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">Direcciones_raiz
+:= Direcciones_ini + Direcciones_alcanzables_desde(Direcciones_ini);<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-.05pt;margin-bottom:
+0cm;margin-left:35.4pt;margin-bottom:.0001pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">/*
+Asignamos una puntuación inicial a las direcciones, obsérvese que una misma
+dirección podrá ser autoridad reconocida y ganglio valioso */<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><font size="2"><b><u><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD">para
+todo</span></u></b><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"> d
+perteneciente a Direcciones_raiz <b><u>hacer</u></b><u><o:p>
+</o:p>
+</u></span></font></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-tab-count:1"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="2">d.puntuaciónAutoridad:= valor_ini;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-tab-count:1"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="2">d.puntuaciónGanglio :=<span style="mso-spacerun: yes">&nbsp;&nbsp;
+</span>valor_ini;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><b><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-spacerun:
+yes"><font size="2">&nbsp;</font></span><font size="2"><u>fpara</u></font></span></b><font size="2"><span lang="ES-TRAD" style="mso-ansi-language:
+ES-TRAD">;<o:p>
+</o:p>
+</span></font></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-.05pt;margin-bottom:
+0cm;margin-left:35.4pt;margin-bottom:.0001pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">/*
+Ahora entramos en el bucle de puntuación, el cual terminará al alcanzarse la
+estabilidad del sistema. El sistema alcanza la estabilidad cuando hay pocos
+cambios en la puntuación de las direcciones_raiz tras varias iteraciones.<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-.05pt;margin-bottom:
+0cm;margin-left:35.4pt;margin-bottom:.0001pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">El
+bucle asigna puntuaciones a las páginas para determinar si son buenas
+autoridades <o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-.05pt;margin-bottom:
+0cm;margin-left:35.4pt;margin-bottom:.0001pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">y/o
+buenos ganglios.*/<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><u><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></u></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><b><u><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">repetir
+hasta</font></span></u></b><font size="2"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD">
+alcanzar estabilidad<o:p>
+</o:p>
+</span></font></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-tab-count:1"><font size="2">&nbsp;&nbsp;&nbsp;
+</font></span><font size="2">// actualizamos las puntuaciones de las direcciones
+viéndolas como autoridades.<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-spacerun:
+yes"><font size="2">&nbsp;&nbsp; </font></span><font size="2"><b><u>para todo</u></b>
+d perteneciente a Direcciones_raiz <b><u>hacer</u></b><u><o:p>
+</o:p>
+</u></font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-tab-count:1"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="2">gangliosApuntadores := direcciones_que_apuntana_a(d);<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-tab-count:1"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="2">sumatorio _ganglios := sumatorio_puntuaciones (gangliosApuntadores);<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-tab-count:1"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="2">d.puntuaciónAutoridad += sumatorio_ganglios;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-tab-count:2"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="2"><o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2"><span style="mso-spacerun:
+yes">&nbsp;&nbsp; </span><b><u>fpara<o:p>
+</o:p>
+</u></b></font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-tab-count:1"><font size="2">&nbsp;&nbsp;
+</font></span><font size="2">// actualizamos las puntuaciones de las direcciones
+viéndolas como ganglios.<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-.05pt;margin-bottom:
+0cm;margin-left:35.4pt;margin-bottom:.0001pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-spacerun: yes"><font size="2">&nbsp;&nbsp;
+</font></span><font size="2"><b><u>para todo</u></b> d perteneciente a
+Direcciones_raiz <b><u>hacer</u></b><u><o:p>
+</o:p>
+</u></font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-tab-count:1"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></span><font size="2">autoridadesApuntadas
+:= direcciones_a_las_que_apunta(d);<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt" align="left">&nbsp;&nbsp;
+<span style="mso-ansi-language: ES-TRAD" lang="ES-TRAD">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">sumatorio_autoridades
+:=sumatorio_puntuaciones_autoridades&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(autoridadesApuntadas);<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-tab-count:1"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="2">d.puntuaciónGanglio += sumatorio_autoridades;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-spacerun:
+yes"><font size="2">&nbsp;&nbsp; </font></span><font size="2"><b><u>fpara<o:p>
+</o:p>
+</u></b></font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><b><u><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">frepetir</font></span></u></b><font size="2"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD">;<o:p>
+</o:p>
+</span></font></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt;text-indent:35.4pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">//Escogemos
+las mejores autoridades y los mejores ganglios<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-tab-count:1"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="2">Autoridades := máximas { Direcciones_raiz.puntuaciónAutoridad
+};<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-tab-count:1"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="2">Ganglios<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>:= máximas { Direcciones_raiz.puntuaciónGanglio};<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<h2 style="margin-right:-.05pt"><!--mstheme--><font color="#003366"><font size="2"><span style="mso-tab-count: 1; text-decoration: none; text-underline: none" lang="ES-TRAD">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span lang="ES-TRAD">Fin</span></b><span lang="ES-TRAD">_Algoritmo_Clever</span></font><!--mstheme--></font></h2>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><span style="mso-tab-count:3"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="2"><o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><o:p>
+</o:p>
+</font></span></p>
+<h3 style="margin-right:-.05pt"><!--mstheme--><font color="#003366"><font size="2"><span lang="ES-TRAD"><u>Conclusión</u></span></font><!--mstheme--></font></h3>
+<p class="MsoNormal" style="margin-right: 0pt" align="left"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;&nbsp;
+Clever va más halla de la clásica búsqueda por frecuencia de aparición de palabras y descubre la
+ estructura interna de la red, confinada en subcomunidades, gracias
+al descubrimiento de los ganglios y las autoridades escondidos en la web.<o:p></font></span></p>
+<p class="MsoNormal" style="margin-right: 0pt" align="left"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;&nbsp;
+Clever
+consigue focalizar la búsqueda dentro de una comunidad fuertemente conectada,
+con lo que la respuesta al usuario tiene un alto grado de calidad.<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-.05pt;margin-bottom:
+0cm;margin-left:35.4pt;margin-bottom:.0001pt" align="left"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-.05pt;margin-bottom:
+0cm;margin-left:35.4pt;margin-bottom:.0001pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-top:0cm;margin-right:-.05pt;margin-bottom:
+0cm;margin-left:35.4pt;margin-bottom:.0001pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p class="MsoNormal" style="margin-right:-.05pt"><span lang="ES-TRAD" style="mso-ansi-language:ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+
+<!--mstheme--></font></body>
+
+</html>

@@ -1,0 +1,438 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>En estos dos temas los autores dan una descripción teórica del concepto
+de agente inteligente y de las sociedades y sistemas</title>
+<meta name="Microsoft Theme" content="sumipntg 001, default">
+</head>
+
+<body background="../../../_themes/sumipntg/sumtextb.jpg" tppabs="http://www.fdi.ucm.es/_themes/sumipntg/sumtextb.jpg" bgcolor="#FFFFFF" text="#000066" link="#3333CC" vlink="#666699" alink="#990099"><!--mstheme--><font face="Verdana, Arial, Helvetica">
+
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD"><font size="2">En
+estos dos temas los autores dan una descripción teórica del concepto de agente
+inteligente y de las sociedades y sistemas multiagente. También se proponen
+diferentes arquitecturas para diseñar y construir sistemas basados en agentes.</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p style="margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l5 level1 lfo1;tab-stops:list 18.0pt"><b style="mso-bidi-font-weight:normal"><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">1-<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;
+</span>AGENTES INTELIGENTES </span></font></b><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">de
+Michael Wooldridge<b style="mso-bidi-font-weight:normal"><o:p>
+</o:p>
+</b></span></font></p>
+<p style="line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold"><font size="2">Comentario:
+Juan Gallardo Cobo.<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><b style="mso-bidi-font-weight:normal"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">¿Qué
+es un agente?<o:p>
+</o:p>
+</font></span></b></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">Para
+empezar, el autor establece una distinción entre <i style="mso-bidi-font-style:normal">agente
+</i>y <i style="mso-bidi-font-style:normal">agente inteligente</i>. Así un
+agente es un sistema de computación que situado en un entorno es capaz de
+llevar a cabo acciones autónomas para satisfacer unos objetivos determinados.
+Por ejemplo, un termostato o los demonios de Unix. Para que sea además <i style="mso-bidi-font-style:normal">inteligente
+</i>debe ser realizar tareas autónomas de manera flexible, entendiendo por
+flexibilidad:<o:p>
+</o:p>
+</font></span></p>
+<p style="margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l3 level1 lfo2;tab-stops:list 18.0pt"><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt; font-family: Wingdings">q<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">Reactividad:
+</span></i><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">deben
+responder a cambios que se produzcan en el entorno sin apartarse del
+cumplimiento de sus objetivos.<o:p>
+</o:p>
+</span></font></p>
+<p style="margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l3 level1 lfo2;tab-stops:list 18.0pt"><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt; font-family: Wingdings">q<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">Pro-actividad</span></i><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">:
+pueden tomar la iniciativa para desempeñar su cometido.<o:p>
+</o:p>
+</span></font></p>
+<p style="margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l3 level1 lfo2;tab-stops:list 18.0pt"><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt; font-family: Wingdings">q<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">Capacidad
+social</span></i><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">:
+interactúan con otros agentes para conseguir sus objetivos.<o:p>
+</o:p>
+</span></font></p>
+<p style="text-align:justify;text-indent:3.0pt;line-height:
+150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Agentes y objetos</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">La
+principal diferencia entre un agente y un objeto es que este último no tiene
+control sobre su comportamiento: es decir, ejecutará un método siempre que
+otro objeto se lo pida. En el caso de los agentes, un agente no siempre realizará
+una acción requerida por otro agente. Se puede representar esta distinción en
+la siguiente frase: “Los objetos actúan gratis, los agentes lo hacen por
+dinero”.<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">Otra
+importante diferencia es que un agente tiene que ejecutarse en su propio thread
+de control (un objeto también puede hacerlo, pero no obligatoriamente).<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">Además
+un agente debe mostrar un comportamiento flexible (reactividad, pro-actividad,
+capacidad social).<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Arquitecturas abstractas</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p style="margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l0 level1 lfo3;tab-stops:list 18.0pt"><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">1-<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><u><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">Agentes
+reactivos puros<o:p>
+</o:p>
+</span></u></font></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">Deciden
+lo que hay que hacer sin tener en cuenta el pasado. Únicamente basan su decisión
+respondiendo directamente al entorno en el momento actual. <o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><u><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></u></p>
+<p style="margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l5 level1 lfo1;tab-stops:list 18.0pt"><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">2-<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><u><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">Agentes
+con estado<o:p>
+</o:p>
+</span></u></font></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">El
+agente realiza una acción según el entorno y la información que tiene del
+pasado. Esta información será actualizada por el agente según sea necesario.<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Arquitecturas concretas</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">El autor presenta una serie de
+arquitecturas a tener en cuenta para diseñar un agente. Veremos que cada tipo
+de agente es apropiado sólo para dominios muy concretos. Por ejemplo, donde es
+válido un diseño reactivo puede no ser<span style="mso-spacerun: yes">&nbsp; </span>adecuado
+un agente lógico y viceversa.</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p style="margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l2 level1 lfo4;tab-stops:list 18.0pt"><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">1-<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><u><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">Arquitecturas
+lógicas<o:p>
+</o:p>
+</span></u></font></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">Utilizando
+deducción lógica el agente decide las operaciones a ejecutar. El agente tiene
+un conjunto de reglas de deducción y una base de hechos que describen el
+entorno. A partir de ello ajusta su comportamiento para cumplir sus objetivos.
+Ejemplo rápido: un agente que controla un aspirador que se mueve en una cuadrícula
+de 3X3. Predicados usados:<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">En(
+x, y ) : el aspirador está en (x,y).<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">Suciedad(
+x, y ) : hay suciedad en (x,y).<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">Apunta(punto
+cardinal): el aspirador puede avanzar a “punto cardinal”.<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">El
+conjunto de reglas que determinan el comportamiento del aspirador podrían ser:<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><font size="2"><!--[if gte vml 1]><v:line
+ id="_x0000_s1026" style='position:absolute;left:0;text-align:left;z-index:1'
+ from="123.75pt,6.75pt" to="138.15pt,6.75pt" o:allowincell="f">
+ <v:stroke endarrow="block"/>
+</v:line><![endif]-->
+<span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">En(X,Y)<span style="mso-spacerun: yes">&nbsp;
+</span>^ Suciedad(X,Y)<span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; -&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Acción(aspirar).<span style="mso-spacerun: yes">&nbsp;&nbsp;
+</span><i style="mso-bidi-font-style:normal">Hay suciedad en el punto actual:
+aspiramos<o:p>
+</o:p>
+</i></span></font></p>
+<p style="text-align:justify;line-height:150%"><font size="2"><!--[if gte vml 1]><v:line
+ id="_x0000_s1029" style='position:absolute;left:0;text-align:left;z-index:4'
+ from="188.55pt,4.8pt" to="202.95pt,4.8pt" o:allowincell="f">
+ <v:stroke endarrow="block"/>
+</v:line><![endif]-->
+<!--[if gte vml 1]><v:line
+ id="_x0000_s1028" style='position:absolute;left:0;text-align:left;flip:y;
+ z-index:3' from="123.75pt,4.8pt" to="123.75pt,12pt" o:allowincell="f"/><![endif]-->
+<!--[if gte vml 1]><v:line
+ id="_x0000_s1027" style='position:absolute;left:0;text-align:left;z-index:2'
+ from="116.55pt,4.8pt" to="123.75pt,4.8pt" o:allowincell="f"/><![endif]-->
+<span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">En(0,0) ^ Apunta(norte)
+^<span style="mso-spacerun: yes"> </span>Suciedad(0,0)<span style="mso-spacerun: yes">&nbsp;
+-&gt;&nbsp; </span>Acción(avanzar).<i style="mso-bidi-font-style:
+normal">0,0 está limpio:vamos a</i><i style="mso-bidi-font-style: normal; mso-bidi-font-size: 10.0pt">
+</i><i style="mso-bidi-font-style:
+normal">0,1<o:p>
+</o:p>
+</i></span></font></p>
+<p style="text-align:justify;line-height:150%"><font size="2"><!--[if gte vml 1]><v:line
+ id="_x0000_s1031" style='position:absolute;left:0;text-align:left;flip:y;
+ z-index:6' from="123.75pt,.25pt" to="123.75pt,7.45pt" o:allowincell="f"/><![endif]-->
+<!--[if gte vml 1]><v:line
+ id="_x0000_s1030" style='position:absolute;left:0;text-align:left;z-index:5'
+ from="116.55pt,.25pt" to="123.75pt,.25pt" o:allowincell="f"/><![endif]-->
+<span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">En(0,2) ^Apunta(norte) ^<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Suciedad(0,2)<span style="mso-spacerun: yes">&nbsp; -&gt;&nbsp; </span>Acción(girar).<i style="mso-bidi-font-style:
+normal"><span style="mso-spacerun: yes">&nbsp; </span>Giramos para ir a otra
+columna<o:p>
+</o:p>
+</i></span></font></p>
+<p style="text-align:justify;line-height:150%"><font size="2"><!--[if gte vml 1]><v:line
+ id="_x0000_s1033" style='position:absolute;left:0;text-align:left;z-index:8'
+ from="102.15pt,10.1pt" to="116.55pt,10.1pt" o:allowincell="f">
+ <v:stroke endarrow="block"/>
+</v:line><![endif]-->
+<span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">En(0,2) ^Apunta(este)<span style="mso-spacerun: yes">&nbsp;&nbsp;
+-&gt;&nbsp;&nbsp; </span>Acción(avanzar).<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span><i style="mso-bidi-font-style:
+normal">Avanzamos a la otra columna.<o:p>
+</o:p>
+</i></span></font></p>
+<p><span lang="ES-TRAD"><font size="2">Ventajas de estos agentes: la claridad en
+la descripción de los objetivos y la “elegancia”. Desventajas: eficiencia e
+imposibilidad de aplicar en entornos complejos y cambiantes donde el tiempo sea
+factor crítico.</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p style="margin-left:18.0pt;text-indent:-18.0pt;mso-list:
+l2 level1 lfo4;tab-stops:list 18.0pt"><span lang="ES-TRAD"><font size="2">2-<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span><font size="2"><u><span lang="ES-TRAD">Arquitecturas
+reactivas<o:p>
+</o:p>
+</span></u></font></p>
+<p><u><span lang="ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></u></p>
+<p><span lang="ES-TRAD"><font size="2">Corresponde su descripción a la
+arquitectura abstracta “reactiva pura”.</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Ventajas: simplicidad, economía,
+tratamiento computacional sencillo y eficiente.</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Desventajas: decisiones tomadas sólo a
+muy corto plazo, también es difícil conseguir que aprendan para mejorar su
+comportamiento en el futuro y en caso de funcionar en entornos muy complejos son
+difíciles de diseñar: es necesario un laborioso proceso de experimentación,
+ensayo y error.</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p style="margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l2 level1 lfo4;tab-stops:list 18.0pt"><font size="2"><span lang="EN-GB" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-GB">3-<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><u><span lang="EN-GB" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-GB">Arquitecturas
+BDI <i style="mso-bidi-font-style:normal">(beliefs, desires, intentions)</i>.<o:p>
+</o:p>
+</span></u></font></p>
+<p style="text-align:justify;line-height:150%"><u><span lang="EN-GB" style="mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-GB"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></u></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">En
+estas arquitecturas la toma de decisiones se asemeja al razonamiento que
+empleamos en la vida cotidiana. A partir de unas creencias (<i style="mso-bidi-font-style:
+normal">beliefs</i>) sobre el entorno adaptamos nuestros deseos (<i style="mso-bidi-font-style:normal">desires</i>)
+de acuerdo a una serie de intenciones (<i style="mso-bidi-font-style:normal">intentions</i>)
+u objetivos a realizar.<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">Los
+componentes básicos de una arquitectura BDI son estructuras de datos que
+representan los <i style="mso-bidi-font-style:normal">beliefs, desires </i>e<i style="mso-bidi-font-style:
+normal"> intentions</i> del agente, así como funciones que realizan la
+deliberación (decidir qué <i style="mso-bidi-font-style:normal">intentions </i>tomar,
+o lo que es igual, qué hacer) y razonamiento relativo a cómo realizar lo
+decidido. Las intentions desempeñan un papel fundamental en el modelo BDI: dan
+estabilidad<span style="mso-spacerun: yes">&nbsp; </span>en la toma de
+decisiones y permiten focalizar el razonamiento práctico del agente. Un
+problema importante en arquitecturas BDI es encontrar un balance entre
+reactividad y pro-actividad. La<span style="mso-spacerun: yes">&nbsp; </span>solución
+es utilizar agentes<span style="mso-spacerun: yes">&nbsp; </span>más
+pro-activos cuando no sea necesario adaptar el comportamiento del agente debido
+a cambios frecuentes en el entorno y más reactivos si lo importante es que el
+agente adecue rápidamente su comportamiento.<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">Ventajas:
+de diseño intuitivo y de descomposición clara que nos indica qué tipo de
+subsistemas necesitamos.<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">Desventajas:
+cómo implementar eficientemente las funciones necesarias.<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p style="margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l2 level1 lfo4;tab-stops:list 18.0pt"><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">4-<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><u><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">Arquitecturas
+en capas<o:p>
+</o:p>
+</span></u></font></p>
+<p style="text-align:justify;line-height:150%"><u><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></u></p>
+<p><span lang="ES-TRAD"><font size="2">Los distintos subsistemas que integran el
+agente están organizados en una serie de capas que interactúan entre sí.
+Podemos identificar dos tipos de estructuras:</font></span></p>
+<p style="margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l1 level1 lfo5;tab-stops:list 18.0pt"><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt; font-family: Wingdings">q<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">Horizontal</span></i><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">:
+En ellas, cada capa actúa como un agente en sí misma, produciendo sugerencias
+de qué acción realizar.<o:p>
+</o:p>
+</span></font></p>
+<p style="margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l1 level1 lfo5;tab-stops:list 18.0pt"><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt; font-family: Wingdings">q<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">Vertical</span></i><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">:
+la acción atraviesa varias capas, desde la de entrada en el nivel superior
+hasta la de salida en el nivel inferior.<o:p>
+</o:p>
+</span></font></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">El
+diseño horizontal es simple de diseñar conceptualmente y es tolerante a
+fallos, pero hay peligro de que la salida de las diferentes capas no sean
+coherentes (y colocar un mediador para solucionarlo podría crear un cuello de
+botella). Esto se soluciona en la estructura vertical (que puede ser de dos
+pasadas, donde la acción puede ser refinada). Sin embargo se pierde tolerancia
+a fallos: un fallo en una capa puede tener serias consecuencias en el
+comportamiento final del agente.<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p align="center" style="text-align:center"><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">2-
+SISTEMAS MULTIAGENTE Y SOCIEDADES DE AGENTES </span><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt; font-weight: normal">de</span><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">
+</span><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt; font-weight: normal">Michael
+N. Huns y Larry M. Stephens<o:p>
+</o:p>
+</span></font></p>
+<p style="line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold"><font size="2">Comentario:
+Juan Gallardo Cobo.<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Características de los entornos en los
+que es apropiado el uso de multiagentes:</font></span></p>
+<p style="margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l4 level1 lfo6;tab-stops:list 18.0pt"><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt; font-family: Wingdings">q<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">Aquellos
+que proporcionan una infraestructura que permite la comunicación siguiendo
+determinados protocolos.<o:p>
+</o:p>
+</span></font></p>
+<p style="margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l4 level1 lfo6;tab-stops:list 18.0pt"><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt; font-family: Wingdings">q<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">Son
+sistemas abiertos y no tienen un control centralizado.<o:p>
+</o:p>
+</span></font></p>
+<p style="margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l4 level1 lfo6;tab-stops:list 18.0pt"><font size="2"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt; font-family: Wingdings">q<span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt">Los
+agentes que operan en ellos pueden ser cooperativos.<o:p>
+</o:p>
+</span></font></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">A
+continuación se señalan una serie de características de los sistemas
+multiagente.<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Autonomía de diseño</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">Hace
+referencia a la plataforma sobre la que han de funcionar, protocolo de
+comunicación, lenguaje y estructura interna utilizados.<o:p>
+</o:p>
+</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Infraestructura de comunicación</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Usa memoria compartida (blackboard),
+conexión vía mensajes, conexión punto-a-punto, multicast, broadcast, push o
+pull, comunicación síncrona o asíncrona.</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Servicio de directorio</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">White pages, yellow pages.</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Protocolo de mensajes</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">HTTP y HTML, CORBA, DCOM, OLE, KQML.</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Seguridad</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Autenticación, timestamps.</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Servicio de pagos</font></span></p>
+<p><span lang="ES-TRAD"><font size="2">Facturación, divisas.</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><i style="mso-bidi-font-style:normal"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">Soporte
+de operaciones<o:p>
+</o:p>
+</font></span></i></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">Servicios
+de archivo, cuentas, almacenamiento redundante.<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p style="text-align:justify;line-height:150%"><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+<p><span lang="ES-TRAD" style="mso-bidi-font-size: 10.0pt"><font size="2">&nbsp;<o:p>
+</o:p>
+</font></span></p>
+
+<!--mstheme--></font></body>
+
+</html>

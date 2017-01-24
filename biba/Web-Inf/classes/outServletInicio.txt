@@ -1,0 +1,9 @@
+Fecha y hora:Mon Jul 02 14:49:55 CEST 2001
+Sesion!=null
+action!=null
+action ==abrirSesion
+nombre=d contrasena=d)
+biba.persistencia.AccesoBD.existe :C:\Java\Apache13\Tomcat32\webapps\biba\perfilesUsuario\d.dat
+Recuperamos la  InfoUsuario de d
+biba.persistencia.AccesoBD.existe :C:\Java\Apache13\Tomcat32\webapps\biba\perfilesUsuario\d.dat
+InfoUsuario(d, d

@@ -1,0 +1,45 @@
+*******************************************************************************************
+*    															*
+*	Proyecto BIBA. Sistemas Informaticos 2000-2001							*
+*															*
+*	Dirección del Proyecto:											*
+*	 Dª Carmen Fernández Chamizo										*
+*															*
+*	Miembros del proyecto:											*
+*	  Emilio Bobadilla, Juan Gallardo, Jorge González y Daniel Vilches.			*
+*															*
+*******************************************************************************************
+
+Descripción de los contenidos del CD
+
+
+/biba
+	Esta es la carpeta con todo el código del proyecto BIBA 
+	( \src -> código java; \jsp -> páginas jsp y sus imágenes )
+	y la estructura de carpetas necesaria para desplegar el proyecto en un servidor de 
+	paginas web ( \web-inf -> clases java compiladas ).
+	
+
+/Documentación BIBA
+	Contiene toda la documentación del proyecto: documento de requisitos, una especificación 
+	HTML sobre el interfaz inicial, la documentación final ( manual de usuario, estado del 
+	arte, documento de ampliación ... ) y archivos Rose con el diseño UML.
+
+
+/Estudio previo
+	/Artículos comentados
+		Comentarios a los artículos más importantes que leímos durante la etapa de 
+		documentación para el proyecto.
+	/Motores de búsqueda
+		Documentos acerca del estudio que realizamos sobre los buscadores
+		en internet.
+
+/Librerias
+	Contiene las fuentes de:
+	- Java 2 SDK 1.3
+	- Apache 1.3
+	- Jakarta Tomcat 3.2.1
+
+
+/Presentacion
+	Archivo powerpoint con la presentación del proyecto.
